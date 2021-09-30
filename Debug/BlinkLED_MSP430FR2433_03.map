@@ -1,0 +1,1996 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+                              ./driverlib/MSP430FR2xx_4xx/cs.o (__mspabi_divi)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+                              ./driverlib/MSP430FR2xx_4xx/cs.o (__mspabi_divul)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+                              ./_bit_set.o (__mspabi_slli)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+                              ./_cable_tester_mainloop_once.o (__mspabi_srai)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+                              ./_uart_p1_5_tx_only_put_hex.o (__mspabi_srll)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+                              c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o) (__mspabi_divull)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+                              c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o) (__clzdi2)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+                              c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o) (__clz_tab)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+                              ./_uart_p1_5_tx_only_put_hex.o (__mspabi_mpyul_f5hw)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o)
+                              ./_cable_tester_mainloop_once.o (__crt0_init_bss)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o)
+                              ./_cable_tester_mainloop_once.o (__crt0_movedata)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_main.o)
+                              c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o (__crt0_call_main)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+                              c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o) (memmove)
+c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+                              c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o) (memset)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtbegin_no_eh.o
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtbegin_no_eh.o
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtbegin_no_eh.o
+ .comment       0x0000000000000000       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtbegin_no_eh.o
+ .data          0x0000000000000000        0x0 ./_bit_set.o
+ .bss           0x0000000000000000        0x0 ./_bit_set.o
+ .text          0x0000000000000000       0x2a ./_delay_1ms.o
+ .data          0x0000000000000000        0x0 ./_delay_1ms.o
+ .bss           0x0000000000000000        0x0 ./_delay_1ms.o
+ .debug_frame   0x0000000000000000       0x44 ./_delay_1ms.o
+ .debug_info    0x0000000000000000     0x1c34 ./_delay_1ms.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_delay_1ms.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_delay_1ms.o
+ .debug_line    0x0000000000000000       0xc5 ./_delay_1ms.o
+ .debug_str     0x0000000000000000     0x1208 ./_delay_1ms.o
+ .comment       0x0000000000000000       0x3a ./_delay_1ms.o
+ .text          0x0000000000000000       0xb2 ./_delay_1s.o
+ .data          0x0000000000000000        0x0 ./_delay_1s.o
+ .bss           0x0000000000000000        0x0 ./_delay_1s.o
+ .debug_frame   0x0000000000000000       0x9c ./_delay_1s.o
+ .debug_info    0x0000000000000000     0x1c83 ./_delay_1s.o
+ .debug_abbrev  0x0000000000000000       0xba ./_delay_1s.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_delay_1s.o
+ .debug_line    0x0000000000000000      0x253 ./_delay_1s.o
+ .debug_str     0x0000000000000000     0x1218 ./_delay_1s.o
+ .comment       0x0000000000000000       0x3a ./_delay_1s.o
+ .text          0x0000000000000000       0x12 ./_delay_1us.o
+ .data          0x0000000000000000        0x0 ./_delay_1us.o
+ .bss           0x0000000000000000        0x0 ./_delay_1us.o
+ .debug_frame   0x0000000000000000       0x34 ./_delay_1us.o
+ .debug_info    0x0000000000000000     0x1c20 ./_delay_1us.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_delay_1us.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_delay_1us.o
+ .debug_line    0x0000000000000000       0xa1 ./_delay_1us.o
+ .debug_str     0x0000000000000000     0x11fc ./_delay_1us.o
+ .comment       0x0000000000000000       0x3a ./_delay_1us.o
+ .text          0x0000000000000000        0xa ./_i2c01_clk_to_0.o
+ .data          0x0000000000000000        0x0 ./_i2c01_clk_to_0.o
+ .bss           0x0000000000000000        0x0 ./_i2c01_clk_to_0.o
+ .debug_frame   0x0000000000000000       0x24 ./_i2c01_clk_to_0.o
+ .debug_info    0x0000000000000000     0x1c0c ./_i2c01_clk_to_0.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_i2c01_clk_to_0.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c01_clk_to_0.o
+ .debug_line    0x0000000000000000       0x98 ./_i2c01_clk_to_0.o
+ .debug_str     0x0000000000000000     0x11f9 ./_i2c01_clk_to_0.o
+ .comment       0x0000000000000000       0x3a ./_i2c01_clk_to_0.o
+ .text          0x0000000000000000        0xa ./_i2c01_clk_to_1.o
+ .data          0x0000000000000000        0x0 ./_i2c01_clk_to_1.o
+ .bss           0x0000000000000000        0x0 ./_i2c01_clk_to_1.o
+ .debug_frame   0x0000000000000000       0x24 ./_i2c01_clk_to_1.o
+ .debug_info    0x0000000000000000     0x1c0c ./_i2c01_clk_to_1.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_i2c01_clk_to_1.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c01_clk_to_1.o
+ .debug_line    0x0000000000000000       0x98 ./_i2c01_clk_to_1.o
+ .debug_str     0x0000000000000000     0x11f9 ./_i2c01_clk_to_1.o
+ .comment       0x0000000000000000       0x3a ./_i2c01_clk_to_1.o
+ .text          0x0000000000000000       0x1a ./_i2c01_init.o
+ .data          0x0000000000000000        0x0 ./_i2c01_init.o
+ .bss           0x0000000000000000        0x0 ./_i2c01_init.o
+ .debug_frame   0x0000000000000000       0x24 ./_i2c01_init.o
+ .debug_info    0x0000000000000000     0x1c0c ./_i2c01_init.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_i2c01_init.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c01_init.o
+ .debug_line    0x0000000000000000       0xa0 ./_i2c01_init.o
+ .debug_str     0x0000000000000000     0x11f1 ./_i2c01_init.o
+ .comment       0x0000000000000000       0x3a ./_i2c01_init.o
+ .text          0x0000000000000000        0xa ./_i2c01_sda_to_0.o
+ .data          0x0000000000000000        0x0 ./_i2c01_sda_to_0.o
+ .bss           0x0000000000000000        0x0 ./_i2c01_sda_to_0.o
+ .debug_frame   0x0000000000000000       0x24 ./_i2c01_sda_to_0.o
+ .debug_info    0x0000000000000000     0x1c0c ./_i2c01_sda_to_0.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_i2c01_sda_to_0.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c01_sda_to_0.o
+ .debug_line    0x0000000000000000       0x98 ./_i2c01_sda_to_0.o
+ .debug_str     0x0000000000000000     0x11f9 ./_i2c01_sda_to_0.o
+ .comment       0x0000000000000000       0x3a ./_i2c01_sda_to_0.o
+ .text          0x0000000000000000        0xa ./_i2c01_sda_to_1.o
+ .data          0x0000000000000000        0x0 ./_i2c01_sda_to_1.o
+ .bss           0x0000000000000000        0x0 ./_i2c01_sda_to_1.o
+ .debug_frame   0x0000000000000000       0x24 ./_i2c01_sda_to_1.o
+ .debug_info    0x0000000000000000     0x1c0c ./_i2c01_sda_to_1.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_i2c01_sda_to_1.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c01_sda_to_1.o
+ .debug_line    0x0000000000000000       0x98 ./_i2c01_sda_to_1.o
+ .debug_str     0x0000000000000000     0x11f9 ./_i2c01_sda_to_1.o
+ .comment       0x0000000000000000       0x3a ./_i2c01_sda_to_1.o
+ .data          0x0000000000000000        0x0 ./_i2c_expander01_check_sda1.o
+ .bss           0x0000000000000000        0x0 ./_i2c_expander01_check_sda1.o
+ .data          0x0000000000000000        0x0 ./_i2c_expander01_r1w0_6.o
+ .bss           0x0000000000000000        0x0 ./_i2c_expander01_r1w0_6.o
+ .text          0x0000000000000000      0x10a ./_i2c_expander01_read6.o
+ .data          0x0000000000000000        0x0 ./_i2c_expander01_read6.o
+ .bss           0x0000000000000000        0x0 ./_i2c_expander01_read6.o
+ .debug_frame   0x0000000000000000       0x44 ./_i2c_expander01_read6.o
+ .debug_info    0x0000000000000000     0x1d17 ./_i2c_expander01_read6.o
+ .debug_abbrev  0x0000000000000000      0x115 ./_i2c_expander01_read6.o
+ .debug_loc     0x0000000000000000      0x163 ./_i2c_expander01_read6.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c_expander01_read6.o
+ .debug_line    0x0000000000000000      0x502 ./_i2c_expander01_read6.o
+ .debug_str     0x0000000000000000     0x1277 ./_i2c_expander01_read6.o
+ .comment       0x0000000000000000       0x3a ./_i2c_expander01_read6.o
+ .text          0x0000000000000000        0x0 ./_i2c_expander01_reset.o
+ .data          0x0000000000000000        0x0 ./_i2c_expander01_reset.o
+ .bss           0x0000000000000000        0x0 ./_i2c_expander01_reset.o
+ .debug_info    0x0000000000000000     0x1bf0 ./_i2c_expander01_reset.o
+ .debug_abbrev  0x0000000000000000       0x66 ./_i2c_expander01_reset.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./_i2c_expander01_reset.o
+ .debug_line    0x0000000000000000       0x5d ./_i2c_expander01_reset.o
+ .debug_str     0x0000000000000000     0x11ef ./_i2c_expander01_reset.o
+ .comment       0x0000000000000000       0x3a ./_i2c_expander01_reset.o
+ .text          0x0000000000000000       0x5e ./_i2c_expander01_testLoop.o
+ .data          0x0000000000000000        0x0 ./_i2c_expander01_testLoop.o
+ .bss           0x0000000000000000       0x32 ./_i2c_expander01_testLoop.o
+ .debug_frame   0x0000000000000000       0x4c ./_i2c_expander01_testLoop.o
+ .debug_info    0x0000000000000000     0x1d0e ./_i2c_expander01_testLoop.o
+ .debug_abbrev  0x0000000000000000       0xb7 ./_i2c_expander01_testLoop.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_i2c_expander01_testLoop.o
+ .debug_line    0x0000000000000000      0x238 ./_i2c_expander01_testLoop.o
+ .debug_str     0x0000000000000000     0x127b ./_i2c_expander01_testLoop.o
+ .comment       0x0000000000000000       0x3a ./_i2c_expander01_testLoop.o
+ .text          0x0000000000000000        0xc ./_led_green_set_output.o
+ .data          0x0000000000000000        0x0 ./_led_green_set_output.o
+ .bss           0x0000000000000000        0x0 ./_led_green_set_output.o
+ .debug_frame   0x0000000000000000       0x24 ./_led_green_set_output.o
+ .debug_info    0x0000000000000000     0x1c0c ./_led_green_set_output.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_led_green_set_output.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_led_green_set_output.o
+ .debug_line    0x0000000000000000       0x9e ./_led_green_set_output.o
+ .debug_str     0x0000000000000000     0x1205 ./_led_green_set_output.o
+ .comment       0x0000000000000000       0x3a ./_led_green_set_output.o
+ .text          0x0000000000000000        0xc ./_led_green_toggle.o
+ .data          0x0000000000000000        0x0 ./_led_green_toggle.o
+ .bss           0x0000000000000000        0x0 ./_led_green_toggle.o
+ .debug_frame   0x0000000000000000       0x24 ./_led_green_toggle.o
+ .debug_info    0x0000000000000000     0x1c0c ./_led_green_toggle.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_led_green_toggle.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_led_green_toggle.o
+ .debug_line    0x0000000000000000       0x9a ./_led_green_toggle.o
+ .debug_str     0x0000000000000000     0x11fd ./_led_green_toggle.o
+ .comment       0x0000000000000000       0x3a ./_led_green_toggle.o
+ .text          0x0000000000000000        0xc ./_led_red_set_output.o
+ .data          0x0000000000000000        0x0 ./_led_red_set_output.o
+ .bss           0x0000000000000000        0x0 ./_led_red_set_output.o
+ .debug_frame   0x0000000000000000       0x24 ./_led_red_set_output.o
+ .debug_info    0x0000000000000000     0x1c0c ./_led_red_set_output.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_led_red_set_output.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_led_red_set_output.o
+ .debug_line    0x0000000000000000       0x9a ./_led_red_set_output.o
+ .debug_str     0x0000000000000000     0x1201 ./_led_red_set_output.o
+ .comment       0x0000000000000000       0x3a ./_led_red_set_output.o
+ .text          0x0000000000000000        0xc ./_led_red_toggle.o
+ .data          0x0000000000000000        0x0 ./_led_red_toggle.o
+ .bss           0x0000000000000000        0x0 ./_led_red_toggle.o
+ .debug_frame   0x0000000000000000       0x24 ./_led_red_toggle.o
+ .debug_info    0x0000000000000000     0x1c0c ./_led_red_toggle.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_led_red_toggle.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_led_red_toggle.o
+ .debug_line    0x0000000000000000       0x98 ./_led_red_toggle.o
+ .debug_str     0x0000000000000000     0x11f9 ./_led_red_toggle.o
+ .comment       0x0000000000000000       0x3a ./_led_red_toggle.o
+ .text          0x0000000000000000       0x1e ./_test001.o
+ .data          0x0000000000000000        0x0 ./_test001.o
+ .bss           0x0000000000000000        0x0 ./_test001.o
+ .debug_frame   0x0000000000000000       0x24 ./_test001.o
+ .debug_info    0x0000000000000000     0x1c0c ./_test001.o
+ .debug_abbrev  0x0000000000000000       0x81 ./_test001.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_test001.o
+ .debug_line    0x0000000000000000      0x10f ./_test001.o
+ .debug_str     0x0000000000000000     0x11eb ./_test001.o
+ .comment       0x0000000000000000       0x3a ./_test001.o
+ .text          0x0000000000000000       0x7a ./_test002.o
+ .data          0x0000000000000000        0x0 ./_test002.o
+ .bss           0x0000000000000000        0x0 ./_test002.o
+ .debug_frame   0x0000000000000000       0x48 ./_test002.o
+ .debug_info    0x0000000000000000     0x1c63 ./_test002.o
+ .debug_abbrev  0x0000000000000000       0xa1 ./_test002.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_test002.o
+ .debug_line    0x0000000000000000      0x240 ./_test002.o
+ .debug_str     0x0000000000000000     0x120d ./_test002.o
+ .comment       0x0000000000000000       0x3a ./_test002.o
+ .text          0x0000000000000000       0x6c ./_test003.o
+ .data          0x0000000000000000        0x0 ./_test003.o
+ .bss           0x0000000000000000        0x0 ./_test003.o
+ .debug_frame   0x0000000000000000       0x34 ./_test003.o
+ .debug_info    0x0000000000000000     0x1c63 ./_test003.o
+ .debug_abbrev  0x0000000000000000       0xa1 ./_test003.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_test003.o
+ .debug_line    0x0000000000000000      0x306 ./_test003.o
+ .debug_str     0x0000000000000000     0x120d ./_test003.o
+ .comment       0x0000000000000000       0x3a ./_test003.o
+ .data          0x0000000000000000        0x0 ./_uart_p1_5_tx_only_init.o
+ .bss           0x0000000000000000        0x0 ./_uart_p1_5_tx_only_init.o
+ .data          0x0000000000000000        0x0 ./_uart_p1_5_tx_only_put_hex.o
+ .bss           0x0000000000000000        0x0 ./_uart_p1_5_tx_only_put_hex.o
+ .text          0x0000000000000000       0x50 ./_uart_p1_5_tx_only_testloop.o
+ .data          0x0000000000000000        0x0 ./_uart_p1_5_tx_only_testloop.o
+ .bss           0x0000000000000000        0x1 ./_uart_p1_5_tx_only_testloop.o
+ .debug_frame   0x0000000000000000       0x30 ./_uart_p1_5_tx_only_testloop.o
+ .debug_info    0x0000000000000000     0x1c1f ./_uart_p1_5_tx_only_testloop.o
+ .debug_abbrev  0x0000000000000000       0x94 ./_uart_p1_5_tx_only_testloop.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./_uart_p1_5_tx_only_testloop.o
+ .debug_line    0x0000000000000000      0x10f ./_uart_p1_5_tx_only_testloop.o
+ .debug_str     0x0000000000000000     0x1219 ./_uart_p1_5_tx_only_testloop.o
+ .comment       0x0000000000000000       0x3a ./_uart_p1_5_tx_only_testloop.o
+ .data          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main_init.o
+ .bss           0x0000000000000000        0x0 ./main_init.o
+ .text          0x0000000000000000      0x14c ./driverlib/MSP430FR2xx_4xx/adc.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_frame   0x0000000000000000      0x180 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_info    0x0000000000000000     0x20a0 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_abbrev  0x0000000000000000       0xe6 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_loc     0x0000000000000000      0x110 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_line    0x0000000000000000      0x58d ./driverlib/MSP430FR2xx_4xx/adc.o
+ .debug_str     0x0000000000000000     0x1547 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/adc.o
+ .text          0x0000000000000000       0x2e ./driverlib/MSP430FR2xx_4xx/crc.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_frame   0x0000000000000000       0x94 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_info    0x0000000000000000     0x1dad ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_abbrev  0x0000000000000000       0xe6 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_loc     0x0000000000000000       0x39 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_line    0x0000000000000000      0x23f ./driverlib/MSP430FR2xx_4xx/crc.o
+ .debug_str     0x0000000000000000     0x12c1 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/crc.o
+ .text          0x0000000000000000      0x9cc ./driverlib/MSP430FR2xx_4xx/cs.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/cs.o
+ .bss           0x0000000000000000        0x4 ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_frame   0x0000000000000000      0x35c ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_info    0x0000000000000000     0x256d ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_abbrev  0x0000000000000000      0x231 ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_loc     0x0000000000000000      0x79f ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_line    0x0000000000000000     0x1920 ./driverlib/MSP430FR2xx_4xx/cs.o
+ .debug_str     0x0000000000000000     0x177e ./driverlib/MSP430FR2xx_4xx/cs.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/cs.o
+ .text          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .debug_info    0x0000000000000000     0x1be9 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .debug_abbrev  0x0000000000000000       0x66 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .debug_line    0x0000000000000000       0x5d ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .debug_str     0x0000000000000000     0x11f3 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .text          0x0000000000000000      0x11e ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_frame   0x0000000000000000      0x150 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_info    0x0000000000000000     0x20ab ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_abbrev  0x0000000000000000       0xfa ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_loc     0x0000000000000000       0xfd ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_line    0x0000000000000000      0x4b9 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .debug_str     0x0000000000000000     0x1506 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .text          0x0000000000000000      0x172 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_frame   0x0000000000000000      0x134 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_info    0x0000000000000000     0x2076 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_abbrev  0x0000000000000000      0x170 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_loc     0x0000000000000000       0xa3 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_line    0x0000000000000000      0x659 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .debug_str     0x0000000000000000     0x1511 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .text          0x0000000000000000      0x3f2 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_frame   0x0000000000000000      0x320 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_info    0x0000000000000000     0x2573 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_abbrev  0x0000000000000000      0x194 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_loc     0x0000000000000000      0x40c ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_line    0x0000000000000000      0xd40 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .debug_str     0x0000000000000000     0x1851 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .text          0x0000000000000000      0x12c ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_frame   0x0000000000000000      0x150 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_info    0x0000000000000000     0x20af ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_abbrev  0x0000000000000000       0xfa ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_loc     0x0000000000000000      0x123 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_line    0x0000000000000000      0x4d4 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .debug_str     0x0000000000000000     0x1506 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .text          0x0000000000000000      0x13a ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_frame   0x0000000000000000       0xf8 ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_info    0x0000000000000000     0x1eed ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_abbrev  0x0000000000000000       0xfa ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_loc     0x0000000000000000      0x21e ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_line    0x0000000000000000      0x4f9 ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .debug_str     0x0000000000000000     0x138c ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .text          0x0000000000000000      0x25a ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .rodata        0x0000000000000000       0x1c ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_frame   0x0000000000000000      0x104 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_info    0x0000000000000000     0x20c4 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_abbrev  0x0000000000000000      0x16b ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_loc     0x0000000000000000      0x1dd ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_line    0x0000000000000000      0x919 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .debug_str     0x0000000000000000     0x1404 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .text          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .debug_info    0x0000000000000000     0x1be9 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .debug_abbrev  0x0000000000000000       0x66 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .debug_line    0x0000000000000000       0x5d ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .debug_str     0x0000000000000000     0x11f3 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .text          0x0000000000000000      0x200 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_frame   0x0000000000000000      0x1c4 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_info    0x0000000000000000     0x1f16 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_abbrev  0x0000000000000000      0x127 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_loc     0x0000000000000000       0xd5 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_line    0x0000000000000000      0x4eb ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .debug_str     0x0000000000000000     0x1456 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .text          0x0000000000000000       0x5e ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_frame   0x0000000000000000       0x94 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_info    0x0000000000000000     0x1df7 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_abbrev  0x0000000000000000       0xf7 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_loc     0x0000000000000000       0x4c ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_line    0x0000000000000000      0x2e5 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .debug_str     0x0000000000000000     0x12fd ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .text          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .debug_info    0x0000000000000000     0x1be9 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .debug_abbrev  0x0000000000000000       0x66 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .debug_line    0x0000000000000000       0x5d ./driverlib/MSP430FR2xx_4xx/sac.o
+ .debug_str     0x0000000000000000     0x11f1 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/sac.o
+ .text          0x0000000000000000       0x44 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_frame   0x0000000000000000       0x84 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_info    0x0000000000000000     0x1d34 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_abbrev  0x0000000000000000       0xe6 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_loc     0x0000000000000000       0x13 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_line    0x0000000000000000      0x265 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .debug_str     0x0000000000000000     0x1301 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .text          0x0000000000000000      0x10a ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_frame   0x0000000000000000      0x1b4 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_info    0x0000000000000000     0x1fdc ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_abbrev  0x0000000000000000      0x130 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_loc     0x0000000000000000       0x85 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_line    0x0000000000000000      0x52f ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .debug_str     0x0000000000000000     0x15e0 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .text          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .debug_info    0x0000000000000000     0x1be9 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .debug_abbrev  0x0000000000000000       0x66 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .debug_line    0x0000000000000000       0x5d ./driverlib/MSP430FR2xx_4xx/tia.o
+ .debug_str     0x0000000000000000     0x11f1 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/tia.o
+ .text          0x0000000000000000      0x288 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_frame   0x0000000000000000      0x194 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_info    0x0000000000000000     0x244a ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_abbrev  0x0000000000000000      0x1da ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_loc     0x0000000000000000      0x18a ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_line    0x0000000000000000      0x8a8 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .debug_str     0x0000000000000000     0x172c ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .text          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .debug_info    0x0000000000000000     0x1be9 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .debug_abbrev  0x0000000000000000       0x66 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .debug_line    0x0000000000000000       0x5d ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .debug_str     0x0000000000000000     0x11f5 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .text          0x0000000000000000      0x1a8 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_frame   0x0000000000000000       0xfc ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_info    0x0000000000000000     0x1e0f ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_abbrev  0x0000000000000000      0x12d ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_loc     0x0000000000000000      0x160 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_line    0x0000000000000000      0x5cf ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .debug_str     0x0000000000000000     0x12c1 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .comment       0x0000000000000000       0x3a ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .data          0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+ .bss           0x0000000000000000        0x0 ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .text.udivmodhi4
+                0x0000000000000000       0x3c c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .text.__divhi3
+                0x0000000000000000       0x30 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .text.__modhi3
+                0x0000000000000000       0x2e c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .text.__udivhi3
+                0x0000000000000000        0x8 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .text.__umodhi3
+                0x0000000000000000        0x8 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .comment       0x0000000000000000       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .text          0x0000000000000000        0x4 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .text.udivmodsi4
+                0x0000000000000000       0x86 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .text.__divsi3
+                0x0000000000000000       0x48 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .text.__modsi3
+                0x0000000000000000       0x5a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .text.__udivsi3
+                0x0000000000000000        0xe c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .text.__umodsi3
+                0x0000000000000000        0xe c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .comment       0x0000000000000000       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .text.__mspabi_slli_n
+                0x0000000000000000       0x20 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .text.__gnu_mspabi_sllp
+                0x0000000000000000        0xc c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .text.__mspabi_slll
+                0x0000000000000000        0xc c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .text.__mspabi_sllll
+                0x0000000000000000       0x1e c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .text.__mspabi_srai_n
+                0x0000000000000000       0x20 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .text.__gnu_mspabi_srap
+                0x0000000000000000        0xe c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .text.__mspabi_sral_n
+                0x0000000000000000       0x3e c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .text.__mspabi_sral
+                0x0000000000000000        0xc c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .text.__mspabi_srall
+                0x0000000000000000       0x1e c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .text.__mspabi_srli_n
+                0x0000000000000000       0x3e c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .text.__mspabi_srli
+                0x0000000000000000        0xc c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .text.__gnu_mspabi_srlp
+                0x0000000000000000       0x10 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .text.__mspabi_srll_n
+                0x0000000000000000       0x5c c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .text.__mspabi_srlll
+                0x0000000000000000       0x20 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ .text.__udivdi3
+                0x0000000000000000      0x3f6 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+ .text.__clzdi2
+                0x0000000000000000       0x60 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+ .comment       0x0000000000000000       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+ .rodata.__clz_tab
+                0x0000000000000000      0x100 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+ .comment       0x0000000000000000       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text.__mulhi2
+                0x0000000000000000       0x14 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text.__mulhisi2
+                0x0000000000000000       0x18 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text.__mulsi2
+                0x0000000000000000       0x20 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text.__mulsidi2
+                0x0000000000000000       0x28 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text.__umulsidi2
+                0x0000000000000000       0x28 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text.__muldi3
+                0x0000000000000000       0x60 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_main.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_main.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_main.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtend_no_eh.o
+ .data          0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtend_no_eh.o
+ .bss           0x0000000000000000        0x0 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtend_no_eh.o
+ .comment       0x0000000000000000       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtend_no_eh.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SFR              0x0000000000000000 0x0000000000000010
+BSL              0x0000000000001000 0x0000000000000800
+RAM              0x0000000000002000 0x0000000000001000
+INFOMEM          0x0000000000001800 0x0000000000000200
+INFOA            0x0000000000001800 0x0000000000000200
+FRAM             0x000000000000c400 0x0000000000003b80 xr
+JTAGSIGNATURE    0x000000000000ff80 0x0000000000000004
+BSLSIGNATURE     0x000000000000ff84 0x0000000000000004
+VECT1            0x000000000000ff88 0x0000000000000002
+VECT2            0x000000000000ff8a 0x0000000000000002
+VECT3            0x000000000000ff8c 0x0000000000000002
+VECT4            0x000000000000ff8e 0x0000000000000002
+VECT5            0x000000000000ff90 0x0000000000000002
+VECT6            0x000000000000ff92 0x0000000000000002
+VECT7            0x000000000000ff94 0x0000000000000002
+VECT8            0x000000000000ff96 0x0000000000000002
+VECT9            0x000000000000ff98 0x0000000000000002
+VECT10           0x000000000000ff9a 0x0000000000000002
+VECT11           0x000000000000ff9c 0x0000000000000002
+VECT12           0x000000000000ff9e 0x0000000000000002
+VECT13           0x000000000000ffa0 0x0000000000000002
+VECT14           0x000000000000ffa2 0x0000000000000002
+VECT15           0x000000000000ffa4 0x0000000000000002
+VECT16           0x000000000000ffa6 0x0000000000000002
+VECT17           0x000000000000ffa8 0x0000000000000002
+VECT18           0x000000000000ffaa 0x0000000000000002
+VECT19           0x000000000000ffac 0x0000000000000002
+VECT20           0x000000000000ffae 0x0000000000000002
+VECT21           0x000000000000ffb0 0x0000000000000002
+VECT22           0x000000000000ffb2 0x0000000000000002
+VECT23           0x000000000000ffb4 0x0000000000000002
+VECT24           0x000000000000ffb6 0x0000000000000002
+VECT25           0x000000000000ffb8 0x0000000000000002
+VECT26           0x000000000000ffba 0x0000000000000002
+VECT27           0x000000000000ffbc 0x0000000000000002
+VECT28           0x000000000000ffbe 0x0000000000000002
+VECT29           0x000000000000ffc0 0x0000000000000002
+VECT30           0x000000000000ffc2 0x0000000000000002
+VECT31           0x000000000000ffc4 0x0000000000000002
+VECT32           0x000000000000ffc6 0x0000000000000002
+VECT33           0x000000000000ffc8 0x0000000000000002
+VECT34           0x000000000000ffca 0x0000000000000002
+VECT35           0x000000000000ffcc 0x0000000000000002
+VECT36           0x000000000000ffce 0x0000000000000002
+VECT37           0x000000000000ffd0 0x0000000000000002
+VECT38           0x000000000000ffd2 0x0000000000000002
+VECT39           0x000000000000ffd4 0x0000000000000002
+VECT40           0x000000000000ffd6 0x0000000000000002
+VECT41           0x000000000000ffd8 0x0000000000000002
+VECT42           0x000000000000ffda 0x0000000000000002
+VECT43           0x000000000000ffdc 0x0000000000000002
+VECT44           0x000000000000ffde 0x0000000000000002
+VECT45           0x000000000000ffe0 0x0000000000000002
+VECT46           0x000000000000ffe2 0x0000000000000002
+VECT47           0x000000000000ffe4 0x0000000000000002
+VECT48           0x000000000000ffe6 0x0000000000000002
+VECT49           0x000000000000ffe8 0x0000000000000002
+VECT50           0x000000000000ffea 0x0000000000000002
+VECT51           0x000000000000ffec 0x0000000000000002
+VECT52           0x000000000000ffee 0x0000000000000002
+VECT53           0x000000000000fff0 0x0000000000000002
+VECT54           0x000000000000fff2 0x0000000000000002
+VECT55           0x000000000000fff4 0x0000000000000002
+VECT56           0x000000000000fff6 0x0000000000000002
+VECT57           0x000000000000fff8 0x0000000000000002
+VECT58           0x000000000000fffa 0x0000000000000002
+VECT59           0x000000000000fffc 0x0000000000000002
+RESETVEC         0x000000000000fffe 0x0000000000000002
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtbegin_no_eh.o
+LOAD ./_bit_set.o
+LOAD ./_cable_tester_mainloop_once.o
+LOAD ./_delay_1ms.o
+LOAD ./_delay_1s.o
+LOAD ./_delay_1us.o
+LOAD ./_i2c01_clk_to_0.o
+LOAD ./_i2c01_clk_to_1.o
+LOAD ./_i2c01_init.o
+LOAD ./_i2c01_sda_to_0.o
+LOAD ./_i2c01_sda_to_1.o
+LOAD ./_i2c_expander01_check_sda1.o
+LOAD ./_i2c_expander01_r1w0_6.o
+LOAD ./_i2c_expander01_read6.o
+LOAD ./_i2c_expander01_reset.o
+LOAD ./_i2c_expander01_testLoop.o
+LOAD ./_led_green_set_output.o
+LOAD ./_led_green_toggle.o
+LOAD ./_led_red_set_output.o
+LOAD ./_led_red_toggle.o
+LOAD ./_test001.o
+LOAD ./_test002.o
+LOAD ./_test003.o
+LOAD ./_uart_p1_5_tx_only_init.o
+LOAD ./_uart_p1_5_tx_only_put_hex.o
+LOAD ./_uart_p1_5_tx_only_testloop.o
+LOAD ./main.o
+LOAD ./main_init.o
+LOAD ./driverlib/MSP430FR2xx_4xx/adc.o
+LOAD ./driverlib/MSP430FR2xx_4xx/crc.o
+LOAD ./driverlib/MSP430FR2xx_4xx/cs.o
+LOAD ./driverlib/MSP430FR2xx_4xx/ecomp.o
+LOAD ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+LOAD ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+LOAD ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+LOAD ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+LOAD ./driverlib/MSP430FR2xx_4xx/framctl.o
+LOAD ./driverlib/MSP430FR2xx_4xx/gpio.o
+LOAD ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+LOAD ./driverlib/MSP430FR2xx_4xx/mpy32.o
+LOAD ./driverlib/MSP430FR2xx_4xx/pmm.o
+LOAD ./driverlib/MSP430FR2xx_4xx/rtc.o
+LOAD ./driverlib/MSP430FR2xx_4xx/sac.o
+LOAD ./driverlib/MSP430FR2xx_4xx/sfr.o
+LOAD ./driverlib/MSP430FR2xx_4xx/sysctl.o
+LOAD ./driverlib/MSP430FR2xx_4xx/tia.o
+LOAD ./driverlib/MSP430FR2xx_4xx/timer_a.o
+LOAD ./driverlib/MSP430FR2xx_4xx/timer_b.o
+LOAD ./driverlib/MSP430FR2xx_4xx/tlv.o
+LOAD ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+START GROUP
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a
+END GROUP
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a
+START GROUP
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libnosys.a
+END GROUP
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtend_no_eh.o
+LOAD c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a
+
+.jtagsignature
+
+.bslsignature
+
+__interrupt_vector_1
+ *(__interrupt_vector_1)
+
+__interrupt_vector_2
+ *(__interrupt_vector_2)
+
+__interrupt_vector_3
+ *(__interrupt_vector_3)
+
+__interrupt_vector_4
+ *(__interrupt_vector_4)
+
+__interrupt_vector_5
+ *(__interrupt_vector_5)
+
+__interrupt_vector_6
+ *(__interrupt_vector_6)
+
+__interrupt_vector_7
+ *(__interrupt_vector_7)
+
+__interrupt_vector_8
+ *(__interrupt_vector_8)
+
+__interrupt_vector_9
+ *(__interrupt_vector_9)
+
+__interrupt_vector_10
+ *(__interrupt_vector_10)
+
+__interrupt_vector_11
+ *(__interrupt_vector_11)
+
+__interrupt_vector_12
+ *(__interrupt_vector_12)
+
+__interrupt_vector_13
+ *(__interrupt_vector_13)
+
+__interrupt_vector_14
+ *(__interrupt_vector_14)
+
+__interrupt_vector_15
+ *(__interrupt_vector_15)
+
+__interrupt_vector_16
+ *(__interrupt_vector_16)
+
+__interrupt_vector_17
+ *(__interrupt_vector_17)
+
+__interrupt_vector_18
+ *(__interrupt_vector_18)
+
+__interrupt_vector_19
+ *(__interrupt_vector_19)
+
+__interrupt_vector_20
+ *(__interrupt_vector_20)
+
+__interrupt_vector_21
+ *(__interrupt_vector_21)
+
+__interrupt_vector_22
+ *(__interrupt_vector_22)
+
+__interrupt_vector_23
+ *(__interrupt_vector_23)
+
+__interrupt_vector_24
+ *(__interrupt_vector_24)
+
+__interrupt_vector_25
+ *(__interrupt_vector_25)
+
+__interrupt_vector_26
+ *(__interrupt_vector_26)
+
+__interrupt_vector_27
+ *(__interrupt_vector_27)
+
+__interrupt_vector_28
+ *(__interrupt_vector_28)
+
+__interrupt_vector_29
+ *(__interrupt_vector_29)
+
+__interrupt_vector_30
+ *(__interrupt_vector_30)
+
+__interrupt_vector_31
+ *(__interrupt_vector_31)
+
+__interrupt_vector_32
+ *(__interrupt_vector_32)
+
+__interrupt_vector_33
+ *(__interrupt_vector_33)
+
+__interrupt_vector_34
+ *(__interrupt_vector_34)
+
+__interrupt_vector_35
+ *(__interrupt_vector_35)
+
+__interrupt_vector_36
+ *(__interrupt_vector_36)
+
+__interrupt_vector_37
+ *(__interrupt_vector_37)
+
+__interrupt_vector_38
+ *(__interrupt_vector_38)
+
+__interrupt_vector_39
+ *(__interrupt_vector_39)
+
+__interrupt_vector_40
+ *(__interrupt_vector_40)
+
+__interrupt_vector_41
+ *(__interrupt_vector_41)
+
+__interrupt_vector_42
+ *(__interrupt_vector_42)
+ *(__interrupt_vector_port2)
+
+__interrupt_vector_43
+ *(__interrupt_vector_43)
+ *(__interrupt_vector_port1)
+
+__interrupt_vector_44
+ *(__interrupt_vector_44)
+ *(__interrupt_vector_adc)
+
+__interrupt_vector_45
+ *(__interrupt_vector_45)
+ *(__interrupt_vector_usci_b0)
+
+__interrupt_vector_46
+ *(__interrupt_vector_46)
+ *(__interrupt_vector_usci_a1)
+
+__interrupt_vector_47
+ *(__interrupt_vector_47)
+ *(__interrupt_vector_usci_a0)
+
+__interrupt_vector_48
+ *(__interrupt_vector_48)
+ *(__interrupt_vector_wdt)
+
+__interrupt_vector_49
+ *(__interrupt_vector_49)
+ *(__interrupt_vector_rtc)
+
+__interrupt_vector_50
+ *(__interrupt_vector_50)
+ *(__interrupt_vector_timer3_a1)
+
+__interrupt_vector_51
+ *(__interrupt_vector_51)
+ *(__interrupt_vector_timer3_a0)
+
+__interrupt_vector_52
+ *(__interrupt_vector_52)
+ *(__interrupt_vector_timer2_a1)
+
+__interrupt_vector_53
+ *(__interrupt_vector_53)
+ *(__interrupt_vector_timer2_a0)
+
+__interrupt_vector_54
+ *(__interrupt_vector_54)
+ *(__interrupt_vector_timer1_a1)
+
+__interrupt_vector_55
+ *(__interrupt_vector_55)
+ *(__interrupt_vector_timer1_a0)
+
+__interrupt_vector_56
+ *(__interrupt_vector_56)
+ *(__interrupt_vector_timer0_a1)
+
+__interrupt_vector_57
+ *(__interrupt_vector_57)
+ *(__interrupt_vector_timer0_a0)
+
+__interrupt_vector_58
+ *(__interrupt_vector_58)
+ *(__interrupt_vector_unmi)
+
+__interrupt_vector_59
+ *(__interrupt_vector_59)
+ *(__interrupt_vector_sysnmi)
+
+__reset_vector  0x000000000000fffe        0x2
+ *(__interrupt_vector_60)
+ *(__interrupt_vector_reset)
+ *(.resetvec)
+ .resetvec      0x000000000000fffe        0x2 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+
+.rodata         0x000000000000c400      0x4e3
+                0x000000000000c400                . = ALIGN (0x2)
+ *(.plt)
+ *(.rodata .rodata.* .gnu.linkonce.r.* .const .const:*)
+ .rodata.str1.1
+                0x000000000000c400      0x489 ./_cable_tester_mainloop_once.o
+                                        0x490 (size before relaxing)
+ .rodata        0x000000000000c889        0xc ./_cable_tester_mainloop_once.o
+ .rodata.str1.1
+                0x000000000000c895       0x4e ./main.o
+                                         0x51 (size before relaxing)
+ *(.rodata1)
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+
+.rodata2        0x000000000000c8e4       0x62
+                0x000000000000c8e4                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+                0x000000000000c8e4                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = .)
+                0x000000000000c8e4                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x000000000000c8e4                . = ALIGN (0x2)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ .eh_frame      0x000000000000c8e4       0x62 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ *crtbegin*.o(.ctors)
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin*.o(.dtors)
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.persistent     0x000000000000c946        0x0
+                0x000000000000c946                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__persistent_start = .)
+ *(.persistent)
+                0x000000000000c946                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__persistent_end = .)
+
+.text           0x000000000000c946      0xf58
+                0x000000000000c946                . = ALIGN (0x2)
+                0x000000000000c946                PROVIDE (_start = .)
+ *(SORT_BY_NAME(.crt_*))
+ .crt_0000start
+                0x000000000000c946        0x4 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+                0x000000000000c946                __crt0_start
+ .crt_0100init_bss
+                0x000000000000c94a        0xe c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o)
+                0x000000000000c94a                __crt0_init_bss
+ .crt_0300movedata
+                0x000000000000c958       0x14 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o)
+                0x000000000000c958                __crt0_movedata
+ .crt_0800call_main
+                0x000000000000c96c        0x6 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_main.o)
+                0x000000000000c96c                __crt0_call_main
+ *(.lowtext .text .stub .text.* .gnu.linkonce.t.* .text:*)
+ .text          0x000000000000c972      0x14c ./_bit_set.o
+                0x000000000000c972                _bit_and
+                0x000000000000c99e                _bit_or
+                0x000000000000c9ca                _bit_xor
+                0x000000000000c9f6                _bit_inv
+                0x000000000000ca1e                _bit_count
+                0x000000000000ca46                _bit_set
+                0x000000000000ca50                _byte_set
+                0x000000000000ca70                _byte_cmp
+ .text          0x000000000000cabe      0x6d4 ./_cable_tester_mainloop_once.o
+                0x000000000000cabe                _cable_tester_mainloop_onceX3Y
+                0x000000000000cd82                _cable_tester_mainloop_onceX1
+                0x000000000000cef0                _cable_tester_mainloop_onceX2
+                0x000000000000d046                _cable_tester_mainloop_onceX3
+                0x000000000000d0ec                _cable_tester_mainloop_onceX
+                0x000000000000d122                _cable_tester_mainloop_once
+ .text          0x000000000000d192       0x30 ./_i2c_expander01_check_sda1.o
+                0x000000000000d192                _i2c_expander01_check_sda1
+ .text          0x000000000000d1c2      0x15a ./_i2c_expander01_r1w0_6.o
+                0x000000000000d1c2                _i2c_expander01_r1w0_6
+ .text          0x000000000000d31c       0x28 ./_uart_p1_5_tx_only_init.o
+                0x000000000000d31c                _uart_p1_5_tx_only_init
+ .text          0x000000000000d344      0x206 ./_uart_p1_5_tx_only_put_hex.o
+                0x000000000000d344                _uart_p1_5_tx_only_put_rn
+                0x000000000000d37a                _uart_p1_5_tx_only_put_hex_half
+                0x000000000000d3b2                _uart_p1_5_tx_only_put_hex
+                0x000000000000d3c8                _uart_p1_5_tx_only_put_uint32
+                0x000000000000d434                _uart_p1_5_tx_only_put_u8
+                0x000000000000d4aa                _uart_p1_5_tx_only_put_ch
+                0x000000000000d4c8                _uart_p1_5_tx_only_put_hex_u8
+                0x000000000000d4ec                _uart_p1_5_tx_only_put_hexS
+                0x000000000000d51e                _uart_p1_5_tx_only_put_str
+ .text          0x000000000000d54a       0xac ./main.o
+                0x000000000000d54a                main
+ .text          0x000000000000d5f6       0x36 ./main_init.o
+                0x000000000000d5f6                main_init
+ .text          0x000000000000d62c      0x14e ./driverlib/MSP430FR2xx_4xx/pmm.o
+                0x000000000000d62c                PMM_enableSVSH
+                0x000000000000d642                PMM_disableSVSH
+                0x000000000000d658                PMM_turnOnRegulator
+                0x000000000000d66e                PMM_turnOffRegulator
+                0x000000000000d684                PMM_trigPOR
+                0x000000000000d698                PMM_trigBOR
+                0x000000000000d6ac                PMM_clearInterrupt
+                0x000000000000d6c0                PMM_getInterruptStatus
+                0x000000000000d6c6                PMM_unlockLPM5
+                0x000000000000d6cc                PMM_getBandgapMode
+                0x000000000000d6d6                PMM_isBandgapActive
+                0x000000000000d6e0                PMM_isRefGenActive
+                0x000000000000d6ea                PMM_getBufferedBandgapVoltageStatus
+                0x000000000000d6f4                PMM_getVariableReferenceVoltageStatus
+                0x000000000000d6fe                PMM_disableTempSensor
+                0x000000000000d712                PMM_enableTempSensor
+                0x000000000000d726                PMM_disableExternalReference
+                0x000000000000d73a                PMM_enableExternalReference
+                0x000000000000d74e                PMM_disableInternalReference
+                0x000000000000d762                PMM_enableInternalReference
+                0x000000000000d776                PMM_selectVoltageReference
+                0x000000000000d778                PMM_setPowerMode
+ .text          0x000000000000d77a       0x5e ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+                0x000000000000d77a                WDT_A_hold
+                0x000000000000d78e                WDT_A_start
+                0x000000000000d79e                WDT_A_resetTimer
+                0x000000000000d7b0                WDT_A_initWatchdogTimer
+                0x000000000000d7c4                WDT_A_initIntervalTimer
+ .text.__mspabi_slli
+                0x000000000000d7d8        0xa c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+                0x000000000000d7dc                __mspabi_slli
+ .text.__mspabi_slll_n
+                0x000000000000d7e2       0x3e c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+                0x000000000000d7e2                __mspabi_slll_15
+                0x000000000000d7e6                __mspabi_slll_14
+                0x000000000000d7ea                __mspabi_slll_13
+                0x000000000000d7ee                __mspabi_slll_12
+                0x000000000000d7f2                __mspabi_slll_11
+                0x000000000000d7f6                __mspabi_slll_10
+                0x000000000000d7fa                __mspabi_slll_9
+                0x000000000000d7fe                __mspabi_slll_8
+                0x000000000000d802                __mspabi_slll_7
+                0x000000000000d806                __mspabi_slll_6
+                0x000000000000d80a                __mspabi_slll_5
+                0x000000000000d80e                __mspabi_slll_4
+                0x000000000000d812                __mspabi_slll_3
+                0x000000000000d816                __mspabi_slll_2
+                0x000000000000d81a                __mspabi_slll_1
+ .text.__mspabi_srai
+                0x000000000000d820        0xa c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+                0x000000000000d824                __mspabi_srai
+ .text.__mspabi_srll
+                0x000000000000d82a        0xe c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+                0x000000000000d832                __mspabi_srll
+ .text.__umulhisi2
+                0x000000000000d838       0x18 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+                0x000000000000d838                __mspabi_mpyul_f5hw
+                0x000000000000d838                __mspabi_mpyul
+                0x000000000000d838                __umulhisi2
+ .text.memmove  0x000000000000d850       0x3c c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+                0x000000000000d850                memmove
+ .text.memset   0x000000000000d88c       0x12 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+                0x000000000000d88c                memset
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.interp .hash .dynsym .dynstr .gnu.version*)
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000000d89e                . = ALIGN (0x2)
+ *(.init)
+ *(.fini)
+ *(.tm_clone_table)
+
+.data           0x0000000000002000        0xc load address 0x000000000000d89e
+                0x0000000000002000                . = ALIGN (0x2)
+                0x0000000000002000                PROVIDE (__datastart = .)
+ *(.jcr)
+ *(.data.rel.ro.local)
+ *(.data.rel.ro*)
+ *(.dynamic)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000002000        0xc ./_cable_tester_mainloop_once.o
+ *(.gnu.linkonce.d.*personality*)
+ *(.data1)
+ *(.got.plt)
+ *(.got)
+                0x000000000000200c                . = ALIGN (0x2)
+ *(.sdata .sdata.* .gnu.linkonce.s.* D_2 D_1)
+                0x000000000000200c                . = ALIGN (0x2)
+                0x000000000000200c                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (__dataend = .)
+                0x000000000000d89e                PROVIDE (__romdatastart = LOADADDR (.data))
+                0x000000000000000c                PROVIDE (__romdatacopysize = SIZEOF (.data))
+
+.bss            0x000000000000200c       0x5e load address 0x000000000000d8aa
+                0x000000000000200c                . = ALIGN (0x2)
+                0x000000000000200c                PROVIDE (__bssstart = .)
+ *(.dynbss)
+ *(.sbss .sbss.*)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000200c       0x5e ./_cable_tester_mainloop_once.o
+                0x000000000000206a                . = ALIGN (0x2)
+ *(COMMON)
+                [!provide]                        PROVIDE (__bssend = .)
+                0x000000000000005e                PROVIDE (__bsssize = SIZEOF (.bss))
+
+.noinit         0x000000000000206a        0x0 load address 0x000000000000d8aa
+                0x000000000000206a                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit)
+                0x000000000000206a                . = ALIGN (0x2)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x000000000000206a                end = .
+
+.heap           0x000000000000206a        0x4 load address 0x000000000000d8aa
+                0x000000000000206a                . = ALIGN (0x2)
+                0x000000000000206a                __heap_start__ = .
+                0x000000000000206a                _end = __heap_start__
+                [!provide]                        PROVIDE (end = .)
+ *(.heap)
+                0x000000000000206a                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000206a        0x4 LONG 0x0
+                0x000000000000206e                __heap_end__ = .
+                0x000000000000206e                __HeapLimit = __heap_end__
+
+.stack          0x0000000000003000        0x0
+                0x0000000000003000                PROVIDE (__stack = .)
+ *(.stack)
+
+.infoA
+
+.MSP430.attributes
+                0x0000000000000000       0x17
+ *(.MSP430.attributes)
+ .MSP430.attributes
+                0x0000000000000000       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib/crt0.o
+ .MSP430.attributes
+                0x0000000000000017       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtbegin_no_eh.o
+ .MSP430.attributes
+                0x000000000000002e       0x17 ./_bit_set.o
+ .MSP430.attributes
+                0x0000000000000045       0x17 ./_cable_tester_mainloop_once.o
+ .MSP430.attributes
+                0x000000000000005c       0x17 ./_delay_1ms.o
+ .MSP430.attributes
+                0x0000000000000073       0x17 ./_delay_1s.o
+ .MSP430.attributes
+                0x000000000000008a       0x17 ./_delay_1us.o
+ .MSP430.attributes
+                0x00000000000000a1       0x17 ./_i2c01_clk_to_0.o
+ .MSP430.attributes
+                0x00000000000000b8       0x17 ./_i2c01_clk_to_1.o
+ .MSP430.attributes
+                0x00000000000000cf       0x17 ./_i2c01_init.o
+ .MSP430.attributes
+                0x00000000000000e6       0x17 ./_i2c01_sda_to_0.o
+ .MSP430.attributes
+                0x00000000000000fd       0x17 ./_i2c01_sda_to_1.o
+ .MSP430.attributes
+                0x0000000000000114       0x17 ./_i2c_expander01_check_sda1.o
+ .MSP430.attributes
+                0x000000000000012b       0x17 ./_i2c_expander01_r1w0_6.o
+ .MSP430.attributes
+                0x0000000000000142       0x17 ./_i2c_expander01_read6.o
+ .MSP430.attributes
+                0x0000000000000159       0x17 ./_i2c_expander01_reset.o
+ .MSP430.attributes
+                0x0000000000000170       0x17 ./_i2c_expander01_testLoop.o
+ .MSP430.attributes
+                0x0000000000000187       0x17 ./_led_green_set_output.o
+ .MSP430.attributes
+                0x000000000000019e       0x17 ./_led_green_toggle.o
+ .MSP430.attributes
+                0x00000000000001b5       0x17 ./_led_red_set_output.o
+ .MSP430.attributes
+                0x00000000000001cc       0x17 ./_led_red_toggle.o
+ .MSP430.attributes
+                0x00000000000001e3       0x17 ./_test001.o
+ .MSP430.attributes
+                0x00000000000001fa       0x17 ./_test002.o
+ .MSP430.attributes
+                0x0000000000000211       0x17 ./_test003.o
+ .MSP430.attributes
+                0x0000000000000228       0x17 ./_uart_p1_5_tx_only_init.o
+ .MSP430.attributes
+                0x000000000000023f       0x17 ./_uart_p1_5_tx_only_put_hex.o
+ .MSP430.attributes
+                0x0000000000000256       0x17 ./_uart_p1_5_tx_only_testloop.o
+ .MSP430.attributes
+                0x000000000000026d       0x17 ./main.o
+ .MSP430.attributes
+                0x0000000000000284       0x17 ./main_init.o
+ .MSP430.attributes
+                0x000000000000029b       0x17 ./driverlib/MSP430FR2xx_4xx/adc.o
+ .MSP430.attributes
+                0x00000000000002b2       0x17 ./driverlib/MSP430FR2xx_4xx/crc.o
+ .MSP430.attributes
+                0x00000000000002c9       0x17 ./driverlib/MSP430FR2xx_4xx/cs.o
+ .MSP430.attributes
+                0x00000000000002e0       0x17 ./driverlib/MSP430FR2xx_4xx/ecomp.o
+ .MSP430.attributes
+                0x00000000000002f7       0x17 ./driverlib/MSP430FR2xx_4xx/eusci_a_spi.o
+ .MSP430.attributes
+                0x000000000000030e       0x17 ./driverlib/MSP430FR2xx_4xx/eusci_a_uart.o
+ .MSP430.attributes
+                0x0000000000000325       0x17 ./driverlib/MSP430FR2xx_4xx/eusci_b_i2c.o
+ .MSP430.attributes
+                0x000000000000033c       0x17 ./driverlib/MSP430FR2xx_4xx/eusci_b_spi.o
+ .MSP430.attributes
+                0x0000000000000353       0x17 ./driverlib/MSP430FR2xx_4xx/framctl.o
+ .MSP430.attributes
+                0x000000000000036a       0x17 ./driverlib/MSP430FR2xx_4xx/gpio.o
+ .MSP430.attributes
+                0x0000000000000381       0x17 ./driverlib/MSP430FR2xx_4xx/lcd_e.o
+ .MSP430.attributes
+                0x0000000000000398       0x17 ./driverlib/MSP430FR2xx_4xx/mpy32.o
+ .MSP430.attributes
+                0x00000000000003af       0x17 ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .MSP430.attributes
+                0x00000000000003c6       0x17 ./driverlib/MSP430FR2xx_4xx/rtc.o
+ .MSP430.attributes
+                0x00000000000003dd       0x17 ./driverlib/MSP430FR2xx_4xx/sac.o
+ .MSP430.attributes
+                0x00000000000003f4       0x17 ./driverlib/MSP430FR2xx_4xx/sfr.o
+ .MSP430.attributes
+                0x000000000000040b       0x17 ./driverlib/MSP430FR2xx_4xx/sysctl.o
+ .MSP430.attributes
+                0x0000000000000422       0x17 ./driverlib/MSP430FR2xx_4xx/tia.o
+ .MSP430.attributes
+                0x0000000000000439       0x17 ./driverlib/MSP430FR2xx_4xx/timer_a.o
+ .MSP430.attributes
+                0x0000000000000450       0x17 ./driverlib/MSP430FR2xx_4xx/timer_b.o
+ .MSP430.attributes
+                0x0000000000000467       0x17 ./driverlib/MSP430FR2xx_4xx/tlv.o
+ .MSP430.attributes
+                0x000000000000047e       0x17 ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+ .MSP430.attributes
+                0x0000000000000495       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divHI.o)
+ .MSP430.attributes
+                0x00000000000004ac       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(lib2divSI.o)
+ .MSP430.attributes
+                0x00000000000004c3       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(slli.o)
+ .MSP430.attributes
+                0x00000000000004da       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srai.o)
+ .MSP430.attributes
+                0x00000000000004f1       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(srli.o)
+ .MSP430.attributes
+                0x0000000000000508       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ .MSP430.attributes
+                0x000000000000051f       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clzdi2.o)
+ .MSP430.attributes
+                0x0000000000000536       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_clz.o)
+ .MSP430.attributes
+                0x000000000000054d       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libmul_f5.a(lib2hw_mul_f5.o)
+ .MSP430.attributes
+                0x0000000000000564       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_bss.o)
+ .MSP430.attributes
+                0x000000000000057b       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_movedata.o)
+ .MSP430.attributes
+                0x0000000000000592       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libcrt.a(crt_main.o)
+ .MSP430.attributes
+                0x00000000000005a9       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+ .MSP430.attributes
+                0x00000000000005c0       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+ .MSP430.attributes
+                0x00000000000005d7       0x17 c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/crtend_no_eh.o
+ *(.gnu.attributes)
+ *(__TI_build_attributes)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x39
+ *(.comment)
+ .comment       0x0000000000000000       0x39 ./_bit_set.o
+                                         0x3a (size before relaxing)
+ .comment       0x0000000000000039       0x3a ./_cable_tester_mainloop_once.o
+ .comment       0x0000000000000039       0x3a ./_i2c_expander01_check_sda1.o
+ .comment       0x0000000000000039       0x3a ./_i2c_expander01_r1w0_6.o
+ .comment       0x0000000000000039       0x3a ./_uart_p1_5_tx_only_init.o
+ .comment       0x0000000000000039       0x3a ./_uart_p1_5_tx_only_put_hex.o
+ .comment       0x0000000000000039       0x3a ./main.o
+ .comment       0x0000000000000039       0x3a ./main_init.o
+ .comment       0x0000000000000039       0x3a ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .comment       0x0000000000000039       0x3a ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+ .comment       0x0000000000000039       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000039       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memmove.o)
+ .comment       0x0000000000000039       0x3a c:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/../lib/gcc/msp430-elf/9.3.1/../../../../msp430-elf/lib\libc.a(lib_a-memset.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 ./_bit_set.o
+ .debug_aranges
+                0x0000000000000020       0x20 ./_cable_tester_mainloop_once.o
+ .debug_aranges
+                0x0000000000000040       0x20 ./_i2c_expander01_check_sda1.o
+ .debug_aranges
+                0x0000000000000060       0x20 ./_i2c_expander01_r1w0_6.o
+ .debug_aranges
+                0x0000000000000080       0x20 ./_uart_p1_5_tx_only_init.o
+ .debug_aranges
+                0x00000000000000a0       0x20 ./_uart_p1_5_tx_only_put_hex.o
+ .debug_aranges
+                0x00000000000000c0       0x20 ./main.o
+ .debug_aranges
+                0x00000000000000e0       0x20 ./main_init.o
+ .debug_aranges
+                0x0000000000000100       0x20 ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .debug_aranges
+                0x0000000000000120       0x20 ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x12594
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x1ede ./_bit_set.o
+ .debug_info    0x0000000000001ede     0x1f0c ./_cable_tester_mainloop_once.o
+ .debug_info    0x0000000000003dea     0x1c49 ./_i2c_expander01_check_sda1.o
+ .debug_info    0x0000000000005a33     0x1d42 ./_i2c_expander01_r1w0_6.o
+ .debug_info    0x0000000000007775     0x1c0c ./_uart_p1_5_tx_only_init.o
+ .debug_info    0x0000000000009381     0x1e33 ./_uart_p1_5_tx_only_put_hex.o
+ .debug_info    0x000000000000b1b4     0x1c49 ./main.o
+ .debug_info    0x000000000000cdfd     0x1c0c ./main_init.o
+ .debug_info    0x000000000000ea09     0x1e3f ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .debug_info    0x0000000000010848     0x1d4c ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+
+.debug_abbrev   0x0000000000000000      0x8ae
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x100 ./_bit_set.o
+ .debug_abbrev  0x0000000000000100      0x14a ./_cable_tester_mainloop_once.o
+ .debug_abbrev  0x000000000000024a       0xa3 ./_i2c_expander01_check_sda1.o
+ .debug_abbrev  0x00000000000002ed      0x11c ./_i2c_expander01_r1w0_6.o
+ .debug_abbrev  0x0000000000000409       0x81 ./_uart_p1_5_tx_only_init.o
+ .debug_abbrev  0x000000000000048a      0x116 ./_uart_p1_5_tx_only_put_hex.o
+ .debug_abbrev  0x00000000000005a0       0xa3 ./main.o
+ .debug_abbrev  0x0000000000000643       0x81 ./main_init.o
+ .debug_abbrev  0x00000000000006c4       0xff ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .debug_abbrev  0x00000000000007c3       0xeb ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+
+.debug_line     0x0000000000000000     0x2dbb
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x572 ./_bit_set.o
+ .debug_line    0x0000000000000572      0xd48 ./_cable_tester_mainloop_once.o
+ .debug_line    0x00000000000012ba      0x214 ./_i2c_expander01_check_sda1.o
+ .debug_line    0x00000000000014ce      0x68d ./_i2c_expander01_r1w0_6.o
+ .debug_line    0x0000000000001b5b      0x126 ./_uart_p1_5_tx_only_init.o
+ .debug_line    0x0000000000001c81      0x5b6 ./_uart_p1_5_tx_only_put_hex.o
+ .debug_line    0x0000000000002237      0x273 ./main.o
+ .debug_line    0x00000000000024aa      0x126 ./main_init.o
+ .debug_line    0x00000000000025d0      0x59c ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .debug_line    0x0000000000002b6c      0x24f ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+
+.debug_frame    0x0000000000000000      0x670
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x120 ./_bit_set.o
+ .debug_frame   0x0000000000000120      0x160 ./_cable_tester_mainloop_once.o
+ .debug_frame   0x0000000000000280       0x24 ./_i2c_expander01_check_sda1.o
+ .debug_frame   0x00000000000002a4       0x48 ./_i2c_expander01_r1w0_6.o
+ .debug_frame   0x00000000000002ec       0x24 ./_uart_p1_5_tx_only_init.o
+ .debug_frame   0x0000000000000310      0x130 ./_uart_p1_5_tx_only_put_hex.o
+ .debug_frame   0x0000000000000440       0x34 ./main.o
+ .debug_frame   0x0000000000000474       0x24 ./main_init.o
+ .debug_frame   0x0000000000000498      0x174 ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .debug_frame   0x000000000000060c       0x64 ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+
+.debug_str      0x0000000000000000     0x194a
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1253 ./_bit_set.o
+                                       0x128f (size before relaxing)
+ .debug_str     0x0000000000001253      0x19e ./_cable_tester_mainloop_once.o
+                                       0x13a3 (size before relaxing)
+ .debug_str     0x00000000000013f1       0x40 ./_i2c_expander01_check_sda1.o
+                                       0x122b (size before relaxing)
+ .debug_str     0x0000000000001431       0x94 ./_i2c_expander01_r1w0_6.o
+                                       0x127f (size before relaxing)
+ .debug_str     0x00000000000014c5       0x35 ./_uart_p1_5_tx_only_init.o
+                                       0x1209 (size before relaxing)
+ .debug_str     0x00000000000014fa      0x156 ./_uart_p1_5_tx_only_put_hex.o
+                                       0x1376 (size before relaxing)
+ .debug_str     0x0000000000001650        0xf ./main.o
+                                       0x11ff (size before relaxing)
+ .debug_str     0x000000000000165f       0x19 ./main_init.o
+                                       0x11ed (size before relaxing)
+ .debug_str     0x0000000000001678      0x223 ./driverlib/MSP430FR2xx_4xx/pmm.o
+                                       0x140c (size before relaxing)
+ .debug_str     0x000000000000189b       0xaf ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+                                       0x12a3 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x8ca
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x1c5 ./_bit_set.o
+ .debug_loc     0x00000000000001c5      0x1db ./_cable_tester_mainloop_once.o
+ .debug_loc     0x00000000000003a0       0x47 ./_i2c_expander01_check_sda1.o
+ .debug_loc     0x00000000000003e7      0x1fc ./_i2c_expander01_r1w0_6.o
+ .debug_loc     0x00000000000005e3      0x231 ./_uart_p1_5_tx_only_put_hex.o
+ .debug_loc     0x0000000000000814       0x31 ./main.o
+ .debug_loc     0x0000000000000845       0x13 ./driverlib/MSP430FR2xx_4xx/pmm.o
+ .debug_loc     0x0000000000000858       0x72 ./driverlib/MSP430FR2xx_4xx/wdt_a.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x18
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 ./_i2c_expander01_r1w0_6.o
+
+.debug_macro
+ *(.debug_macro)
+
+/DISCARD/
+ *(.note.GNU-stack)
+                [!provide]                        PROVIDE (ADCCTL0 = 0x700)
+                [!provide]                        PROVIDE (ADCCTL0_L = 0x700)
+                [!provide]                        PROVIDE (ADCCTL0_H = 0x701)
+                [!provide]                        PROVIDE (ADCCTL1 = 0x702)
+                [!provide]                        PROVIDE (ADCCTL1_L = 0x702)
+                [!provide]                        PROVIDE (ADCCTL1_H = 0x703)
+                [!provide]                        PROVIDE (ADCCTL2 = 0x704)
+                [!provide]                        PROVIDE (ADCCTL2_L = 0x704)
+                [!provide]                        PROVIDE (ADCCTL2_H = 0x705)
+                [!provide]                        PROVIDE (ADCLO = 0x706)
+                [!provide]                        PROVIDE (ADCLO_L = 0x706)
+                [!provide]                        PROVIDE (ADCLO_H = 0x707)
+                [!provide]                        PROVIDE (ADCHI = 0x708)
+                [!provide]                        PROVIDE (ADCHI_L = 0x708)
+                [!provide]                        PROVIDE (ADCHI_H = 0x709)
+                [!provide]                        PROVIDE (ADCMCTL0 = 0x70a)
+                [!provide]                        PROVIDE (ADCMCTL0_L = 0x70a)
+                [!provide]                        PROVIDE (ADCMCTL0_H = 0x70b)
+                [!provide]                        PROVIDE (ADCMEM0 = 0x712)
+                [!provide]                        PROVIDE (ADCMEM0_L = 0x712)
+                [!provide]                        PROVIDE (ADCMEM0_H = 0x713)
+                [!provide]                        PROVIDE (ADCIE = 0x71a)
+                [!provide]                        PROVIDE (ADCIE_L = 0x71a)
+                [!provide]                        PROVIDE (ADCIE_H = 0x71b)
+                [!provide]                        PROVIDE (ADCIFG = 0x71c)
+                [!provide]                        PROVIDE (ADCIFG_L = 0x71c)
+                [!provide]                        PROVIDE (ADCIFG_H = 0x71d)
+                [!provide]                        PROVIDE (ADCIV = 0x71e)
+                [!provide]                        PROVIDE (ADCIV_L = 0x71e)
+                [!provide]                        PROVIDE (ADCIV_H = 0x71f)
+                [!provide]                        PROVIDE (BAKMEM0 = 0x660)
+                [!provide]                        PROVIDE (BAKMEM0_L = 0x660)
+                [!provide]                        PROVIDE (BAKMEM0_H = 0x661)
+                [!provide]                        PROVIDE (BAKMEM1 = 0x662)
+                [!provide]                        PROVIDE (BAKMEM1_L = 0x662)
+                [!provide]                        PROVIDE (BAKMEM1_H = 0x663)
+                [!provide]                        PROVIDE (BAKMEM2 = 0x664)
+                [!provide]                        PROVIDE (BAKMEM2_L = 0x664)
+                [!provide]                        PROVIDE (BAKMEM2_H = 0x665)
+                [!provide]                        PROVIDE (BAKMEM3 = 0x666)
+                [!provide]                        PROVIDE (BAKMEM3_L = 0x666)
+                [!provide]                        PROVIDE (BAKMEM3_H = 0x667)
+                [!provide]                        PROVIDE (BAKMEM4 = 0x668)
+                [!provide]                        PROVIDE (BAKMEM4_L = 0x668)
+                [!provide]                        PROVIDE (BAKMEM4_H = 0x669)
+                [!provide]                        PROVIDE (BAKMEM5 = 0x66a)
+                [!provide]                        PROVIDE (BAKMEM5_L = 0x66a)
+                [!provide]                        PROVIDE (BAKMEM5_H = 0x66b)
+                [!provide]                        PROVIDE (BAKMEM6 = 0x66c)
+                [!provide]                        PROVIDE (BAKMEM6_L = 0x66c)
+                [!provide]                        PROVIDE (BAKMEM6_H = 0x66d)
+                [!provide]                        PROVIDE (BAKMEM7 = 0x66e)
+                [!provide]                        PROVIDE (BAKMEM7_L = 0x66e)
+                [!provide]                        PROVIDE (BAKMEM7_H = 0x66f)
+                [!provide]                        PROVIDE (BAKMEM8 = 0x670)
+                [!provide]                        PROVIDE (BAKMEM8_L = 0x670)
+                [!provide]                        PROVIDE (BAKMEM8_H = 0x671)
+                [!provide]                        PROVIDE (BAKMEM9 = 0x672)
+                [!provide]                        PROVIDE (BAKMEM9_L = 0x672)
+                [!provide]                        PROVIDE (BAKMEM9_H = 0x673)
+                [!provide]                        PROVIDE (BAKMEM10 = 0x674)
+                [!provide]                        PROVIDE (BAKMEM10_L = 0x674)
+                [!provide]                        PROVIDE (BAKMEM10_H = 0x675)
+                [!provide]                        PROVIDE (BAKMEM11 = 0x676)
+                [!provide]                        PROVIDE (BAKMEM11_L = 0x676)
+                [!provide]                        PROVIDE (BAKMEM11_H = 0x677)
+                [!provide]                        PROVIDE (BAKMEM12 = 0x678)
+                [!provide]                        PROVIDE (BAKMEM12_L = 0x678)
+                [!provide]                        PROVIDE (BAKMEM12_H = 0x679)
+                [!provide]                        PROVIDE (BAKMEM13 = 0x67a)
+                [!provide]                        PROVIDE (BAKMEM13_L = 0x67a)
+                [!provide]                        PROVIDE (BAKMEM13_H = 0x67b)
+                [!provide]                        PROVIDE (BAKMEM14 = 0x67c)
+                [!provide]                        PROVIDE (BAKMEM14_L = 0x67c)
+                [!provide]                        PROVIDE (BAKMEM14_H = 0x67d)
+                [!provide]                        PROVIDE (BAKMEM15 = 0x67e)
+                [!provide]                        PROVIDE (BAKMEM15_L = 0x67e)
+                [!provide]                        PROVIDE (BAKMEM15_H = 0x67f)
+                [!provide]                        PROVIDE (CRCDI = 0x1c0)
+                [!provide]                        PROVIDE (CRCDI_L = 0x1c0)
+                [!provide]                        PROVIDE (CRCDI_H = 0x1c1)
+                [!provide]                        PROVIDE (CRCDIRB = 0x1c2)
+                [!provide]                        PROVIDE (CRCDIRB_L = 0x1c2)
+                [!provide]                        PROVIDE (CRCDIRB_H = 0x1c3)
+                [!provide]                        PROVIDE (CRCINIRES = 0x1c4)
+                [!provide]                        PROVIDE (CRCINIRES_L = 0x1c4)
+                [!provide]                        PROVIDE (CRCINIRES_H = 0x1c5)
+                [!provide]                        PROVIDE (CRCRESR = 0x1c6)
+                [!provide]                        PROVIDE (CRCRESR_L = 0x1c6)
+                [!provide]                        PROVIDE (CRCRESR_H = 0x1c7)
+                [!provide]                        PROVIDE (CSCTL0 = 0x180)
+                [!provide]                        PROVIDE (CSCTL0_L = 0x180)
+                [!provide]                        PROVIDE (CSCTL0_H = 0x181)
+                [!provide]                        PROVIDE (CSCTL1 = 0x182)
+                [!provide]                        PROVIDE (CSCTL1_L = 0x182)
+                [!provide]                        PROVIDE (CSCTL1_H = 0x183)
+                [!provide]                        PROVIDE (CSCTL2 = 0x184)
+                [!provide]                        PROVIDE (CSCTL2_L = 0x184)
+                [!provide]                        PROVIDE (CSCTL2_H = 0x185)
+                [!provide]                        PROVIDE (CSCTL3 = 0x186)
+                [!provide]                        PROVIDE (CSCTL3_L = 0x186)
+                [!provide]                        PROVIDE (CSCTL3_H = 0x187)
+                [!provide]                        PROVIDE (CSCTL4 = 0x188)
+                [!provide]                        PROVIDE (CSCTL4_L = 0x188)
+                [!provide]                        PROVIDE (CSCTL4_H = 0x189)
+                [!provide]                        PROVIDE (CSCTL5 = 0x18a)
+                [!provide]                        PROVIDE (CSCTL5_L = 0x18a)
+                [!provide]                        PROVIDE (CSCTL5_H = 0x18b)
+                [!provide]                        PROVIDE (CSCTL6 = 0x18c)
+                [!provide]                        PROVIDE (CSCTL6_L = 0x18c)
+                [!provide]                        PROVIDE (CSCTL6_H = 0x18d)
+                [!provide]                        PROVIDE (CSCTL7 = 0x18e)
+                [!provide]                        PROVIDE (CSCTL7_L = 0x18e)
+                [!provide]                        PROVIDE (CSCTL7_H = 0x18f)
+                [!provide]                        PROVIDE (CSCTL8 = 0x190)
+                [!provide]                        PROVIDE (CSCTL8_L = 0x190)
+                [!provide]                        PROVIDE (CSCTL8_H = 0x191)
+                [!provide]                        PROVIDE (FRCTL0 = 0x1a0)
+                [!provide]                        PROVIDE (FRCTL0_L = 0x1a0)
+                [!provide]                        PROVIDE (FRCTL0_H = 0x1a1)
+                [!provide]                        PROVIDE (GCCTL0 = 0x1a4)
+                [!provide]                        PROVIDE (GCCTL0_L = 0x1a4)
+                [!provide]                        PROVIDE (GCCTL0_H = 0x1a5)
+                [!provide]                        PROVIDE (GCCTL1 = 0x1a6)
+                [!provide]                        PROVIDE (GCCTL1_L = 0x1a6)
+                [!provide]                        PROVIDE (GCCTL1_H = 0x1a7)
+                [!provide]                        PROVIDE (MPY = 0x4c0)
+                [!provide]                        PROVIDE (MPY_L = 0x4c0)
+                [!provide]                        PROVIDE (MPY_H = 0x4c1)
+                [!provide]                        PROVIDE (MPYS = 0x4c2)
+                [!provide]                        PROVIDE (MPYS_L = 0x4c2)
+                [!provide]                        PROVIDE (MPYS_H = 0x4c3)
+                [!provide]                        PROVIDE (MAC = 0x4c4)
+                [!provide]                        PROVIDE (MAC_L = 0x4c4)
+                [!provide]                        PROVIDE (MAC_H = 0x4c5)
+                [!provide]                        PROVIDE (MACS = 0x4c6)
+                [!provide]                        PROVIDE (MACS_L = 0x4c6)
+                [!provide]                        PROVIDE (MACS_H = 0x4c7)
+                [!provide]                        PROVIDE (OP2 = 0x4c8)
+                [!provide]                        PROVIDE (OP2_L = 0x4c8)
+                [!provide]                        PROVIDE (OP2_H = 0x4c9)
+                [!provide]                        PROVIDE (RESLO = 0x4ca)
+                [!provide]                        PROVIDE (RESLO_L = 0x4ca)
+                [!provide]                        PROVIDE (RESLO_H = 0x4cb)
+                [!provide]                        PROVIDE (RESHI = 0x4cc)
+                [!provide]                        PROVIDE (RESHI_L = 0x4cc)
+                [!provide]                        PROVIDE (RESHI_H = 0x4cd)
+                [!provide]                        PROVIDE (SUMEXT = 0x4ce)
+                [!provide]                        PROVIDE (SUMEXT_L = 0x4ce)
+                [!provide]                        PROVIDE (SUMEXT_H = 0x4cf)
+                [!provide]                        PROVIDE (MPY32L = 0x4d0)
+                [!provide]                        PROVIDE (MPY32L_L = 0x4d0)
+                [!provide]                        PROVIDE (MPY32L_H = 0x4d1)
+                [!provide]                        PROVIDE (MPY32H = 0x4d2)
+                [!provide]                        PROVIDE (MPY32H_L = 0x4d2)
+                [!provide]                        PROVIDE (MPY32H_H = 0x4d3)
+                [!provide]                        PROVIDE (MPYS32L = 0x4d4)
+                [!provide]                        PROVIDE (MPYS32L_L = 0x4d4)
+                [!provide]                        PROVIDE (MPYS32L_H = 0x4d5)
+                [!provide]                        PROVIDE (MPYS32H = 0x4d6)
+                [!provide]                        PROVIDE (MPYS32H_L = 0x4d6)
+                [!provide]                        PROVIDE (MPYS32H_H = 0x4d7)
+                [!provide]                        PROVIDE (MAC32L = 0x4d8)
+                [!provide]                        PROVIDE (MAC32L_L = 0x4d8)
+                [!provide]                        PROVIDE (MAC32L_H = 0x4d9)
+                [!provide]                        PROVIDE (MAC32H = 0x4da)
+                [!provide]                        PROVIDE (MAC32H_L = 0x4da)
+                [!provide]                        PROVIDE (MAC32H_H = 0x4db)
+                [!provide]                        PROVIDE (MACS32L = 0x4dc)
+                [!provide]                        PROVIDE (MACS32L_L = 0x4dc)
+                [!provide]                        PROVIDE (MACS32L_H = 0x4dd)
+                [!provide]                        PROVIDE (MACS32H = 0x4de)
+                [!provide]                        PROVIDE (MACS32H_L = 0x4de)
+                [!provide]                        PROVIDE (MACS32H_H = 0x4df)
+                [!provide]                        PROVIDE (OP2L = 0x4e0)
+                [!provide]                        PROVIDE (OP2L_L = 0x4e0)
+                [!provide]                        PROVIDE (OP2L_H = 0x4e1)
+                [!provide]                        PROVIDE (OP2H = 0x4e2)
+                [!provide]                        PROVIDE (OP2H_L = 0x4e2)
+                [!provide]                        PROVIDE (OP2H_H = 0x4e3)
+                [!provide]                        PROVIDE (RES0 = 0x4e4)
+                [!provide]                        PROVIDE (RES0_L = 0x4e4)
+                [!provide]                        PROVIDE (RES0_H = 0x4e5)
+                [!provide]                        PROVIDE (RES1 = 0x4e6)
+                [!provide]                        PROVIDE (RES1_L = 0x4e6)
+                [!provide]                        PROVIDE (RES1_H = 0x4e7)
+                [!provide]                        PROVIDE (RES2 = 0x4e8)
+                [!provide]                        PROVIDE (RES2_L = 0x4e8)
+                [!provide]                        PROVIDE (RES2_H = 0x4e9)
+                [!provide]                        PROVIDE (RES3 = 0x4ea)
+                [!provide]                        PROVIDE (RES3_L = 0x4ea)
+                [!provide]                        PROVIDE (RES3_H = 0x4eb)
+                [!provide]                        PROVIDE (MPY32CTL0 = 0x4ec)
+                [!provide]                        PROVIDE (MPY32CTL0_L = 0x4ec)
+                [!provide]                        PROVIDE (MPY32CTL0_H = 0x4ed)
+                [!provide]                        PROVIDE (PMMCTL0 = 0x120)
+                [!provide]                        PROVIDE (PMMCTL0_L = 0x120)
+                [!provide]                        PROVIDE (PMMCTL0_H = 0x121)
+                [!provide]                        PROVIDE (PMMCTL1 = 0x122)
+                [!provide]                        PROVIDE (PMMCTL1_L = 0x122)
+                [!provide]                        PROVIDE (PMMCTL1_H = 0x123)
+                [!provide]                        PROVIDE (PMMCTL2 = 0x124)
+                [!provide]                        PROVIDE (PMMCTL2_L = 0x124)
+                [!provide]                        PROVIDE (PMMCTL2_H = 0x125)
+                [!provide]                        PROVIDE (PMMIFG = 0x12a)
+                [!provide]                        PROVIDE (PMMIFG_L = 0x12a)
+                [!provide]                        PROVIDE (PMMIFG_H = 0x12b)
+                [!provide]                        PROVIDE (PMMIE = 0x12e)
+                [!provide]                        PROVIDE (PMMIE_L = 0x12e)
+                [!provide]                        PROVIDE (PMMIE_H = 0x12f)
+                0x0000000000000130                PROVIDE (PM5CTL0 = 0x130)
+                [!provide]                        PROVIDE (PM5CTL0_L = 0x130)
+                [!provide]                        PROVIDE (PM5CTL0_H = 0x131)
+                [!provide]                        PROVIDE (PAIN = 0x200)
+                0x0000000000000200                PROVIDE (PAIN_L = 0x200)
+                [!provide]                        PROVIDE (PAIN_H = 0x201)
+                [!provide]                        PROVIDE (PAOUT = 0x202)
+                0x0000000000000202                PROVIDE (PAOUT_L = 0x202)
+                [!provide]                        PROVIDE (PAOUT_H = 0x203)
+                [!provide]                        PROVIDE (PADIR = 0x204)
+                0x0000000000000204                PROVIDE (PADIR_L = 0x204)
+                [!provide]                        PROVIDE (PADIR_H = 0x205)
+                [!provide]                        PROVIDE (PAREN = 0x206)
+                [!provide]                        PROVIDE (PAREN_L = 0x206)
+                [!provide]                        PROVIDE (PAREN_H = 0x207)
+                [!provide]                        PROVIDE (PASEL0 = 0x20a)
+                0x000000000000020a                PROVIDE (PASEL0_L = 0x20a)
+                [!provide]                        PROVIDE (PASEL0_H = 0x20b)
+                [!provide]                        PROVIDE (PASEL1 = 0x20c)
+                [!provide]                        PROVIDE (PASEL1_L = 0x20c)
+                [!provide]                        PROVIDE (PASEL1_H = 0x20d)
+                [!provide]                        PROVIDE (PAIES = 0x218)
+                [!provide]                        PROVIDE (PAIES_L = 0x218)
+                [!provide]                        PROVIDE (PAIES_H = 0x219)
+                [!provide]                        PROVIDE (PAIE = 0x21a)
+                [!provide]                        PROVIDE (PAIE_L = 0x21a)
+                [!provide]                        PROVIDE (PAIE_H = 0x21b)
+                [!provide]                        PROVIDE (PAIFG = 0x21c)
+                [!provide]                        PROVIDE (PAIFG_L = 0x21c)
+                [!provide]                        PROVIDE (PAIFG_H = 0x21d)
+                [!provide]                        PROVIDE (P1IV = 0x20e)
+                [!provide]                        PROVIDE (P2IV = 0x21e)
+                [!provide]                        PROVIDE (PBIN = 0x220)
+                [!provide]                        PROVIDE (PBIN_L = 0x220)
+                [!provide]                        PROVIDE (PBIN_H = 0x221)
+                [!provide]                        PROVIDE (PBOUT = 0x222)
+                [!provide]                        PROVIDE (PBOUT_L = 0x222)
+                [!provide]                        PROVIDE (PBOUT_H = 0x223)
+                [!provide]                        PROVIDE (PBDIR = 0x224)
+                [!provide]                        PROVIDE (PBDIR_L = 0x224)
+                [!provide]                        PROVIDE (PBDIR_H = 0x225)
+                [!provide]                        PROVIDE (PBREN = 0x226)
+                [!provide]                        PROVIDE (PBREN_L = 0x226)
+                [!provide]                        PROVIDE (PBREN_H = 0x227)
+                [!provide]                        PROVIDE (PBSEL0 = 0x22a)
+                [!provide]                        PROVIDE (PBSEL0_L = 0x22a)
+                [!provide]                        PROVIDE (PBSEL0_H = 0x22b)
+                [!provide]                        PROVIDE (PBSEL1 = 0x22c)
+                [!provide]                        PROVIDE (PBSEL1_L = 0x22c)
+                [!provide]                        PROVIDE (PBSEL1_H = 0x22d)
+                [!provide]                        PROVIDE (RTCCTL = 0x300)
+                [!provide]                        PROVIDE (RTCCTL_L = 0x300)
+                [!provide]                        PROVIDE (RTCCTL_H = 0x301)
+                [!provide]                        PROVIDE (RTCIV = 0x304)
+                [!provide]                        PROVIDE (RTCIV_L = 0x304)
+                [!provide]                        PROVIDE (RTCIV_H = 0x305)
+                [!provide]                        PROVIDE (RTCMOD = 0x308)
+                [!provide]                        PROVIDE (RTCMOD_L = 0x308)
+                [!provide]                        PROVIDE (RTCMOD_H = 0x309)
+                [!provide]                        PROVIDE (RTCCNT = 0x30c)
+                [!provide]                        PROVIDE (RTCCNT_L = 0x30c)
+                [!provide]                        PROVIDE (RTCCNT_H = 0x30d)
+                [!provide]                        PROVIDE (SFRIE1 = 0x100)
+                [!provide]                        PROVIDE (SFRIE1_L = 0x100)
+                [!provide]                        PROVIDE (SFRIE1_H = 0x101)
+                [!provide]                        PROVIDE (SFRIFG1 = 0x102)
+                [!provide]                        PROVIDE (SFRIFG1_L = 0x102)
+                [!provide]                        PROVIDE (SFRIFG1_H = 0x103)
+                [!provide]                        PROVIDE (SFRRPCR = 0x104)
+                [!provide]                        PROVIDE (SFRRPCR_L = 0x104)
+                [!provide]                        PROVIDE (SFRRPCR_H = 0x105)
+                [!provide]                        PROVIDE (SYSCTL = 0x140)
+                [!provide]                        PROVIDE (SYSCTL_L = 0x140)
+                [!provide]                        PROVIDE (SYSCTL_H = 0x141)
+                [!provide]                        PROVIDE (SYSBSLC = 0x142)
+                [!provide]                        PROVIDE (SYSBSLC_L = 0x142)
+                [!provide]                        PROVIDE (SYSBSLC_H = 0x143)
+                [!provide]                        PROVIDE (SYSJMBC = 0x146)
+                [!provide]                        PROVIDE (SYSJMBC_L = 0x146)
+                [!provide]                        PROVIDE (SYSJMBC_H = 0x147)
+                [!provide]                        PROVIDE (SYSJMBI0 = 0x148)
+                [!provide]                        PROVIDE (SYSJMBI0_L = 0x148)
+                [!provide]                        PROVIDE (SYSJMBI0_H = 0x149)
+                [!provide]                        PROVIDE (SYSJMBI1 = 0x14a)
+                [!provide]                        PROVIDE (SYSJMBI1_L = 0x14a)
+                [!provide]                        PROVIDE (SYSJMBI1_H = 0x14b)
+                [!provide]                        PROVIDE (SYSJMBO0 = 0x14c)
+                [!provide]                        PROVIDE (SYSJMBO0_L = 0x14c)
+                [!provide]                        PROVIDE (SYSJMBO0_H = 0x14d)
+                [!provide]                        PROVIDE (SYSJMBO1 = 0x14e)
+                [!provide]                        PROVIDE (SYSJMBO1_L = 0x14e)
+                [!provide]                        PROVIDE (SYSJMBO1_H = 0x14f)
+                [!provide]                        PROVIDE (SYSBERRIV = 0x158)
+                [!provide]                        PROVIDE (SYSBERRIV_L = 0x158)
+                [!provide]                        PROVIDE (SYSBERRIV_H = 0x159)
+                [!provide]                        PROVIDE (SYSUNIV = 0x15a)
+                [!provide]                        PROVIDE (SYSUNIV_L = 0x15a)
+                [!provide]                        PROVIDE (SYSUNIV_H = 0x15b)
+                [!provide]                        PROVIDE (SYSSNIV = 0x15c)
+                [!provide]                        PROVIDE (SYSSNIV_L = 0x15c)
+                [!provide]                        PROVIDE (SYSSNIV_H = 0x15d)
+                [!provide]                        PROVIDE (SYSRSTIV = 0x15e)
+                [!provide]                        PROVIDE (SYSRSTIV_L = 0x15e)
+                [!provide]                        PROVIDE (SYSRSTIV_H = 0x15f)
+                [!provide]                        PROVIDE (SYSCFG0 = 0x160)
+                [!provide]                        PROVIDE (SYSCFG0_L = 0x160)
+                [!provide]                        PROVIDE (SYSCFG0_H = 0x161)
+                [!provide]                        PROVIDE (SYSCFG1 = 0x162)
+                [!provide]                        PROVIDE (SYSCFG1_L = 0x162)
+                [!provide]                        PROVIDE (SYSCFG1_H = 0x163)
+                [!provide]                        PROVIDE (SYSCFG2 = 0x164)
+                [!provide]                        PROVIDE (SYSCFG2_L = 0x164)
+                [!provide]                        PROVIDE (SYSCFG2_H = 0x165)
+                [!provide]                        PROVIDE (TA0CTL = 0x380)
+                [!provide]                        PROVIDE (TA0CCTL0 = 0x382)
+                [!provide]                        PROVIDE (TA0CCTL1 = 0x384)
+                [!provide]                        PROVIDE (TA0CCTL2 = 0x386)
+                [!provide]                        PROVIDE (TA0R = 0x390)
+                [!provide]                        PROVIDE (TA0CCR0 = 0x392)
+                [!provide]                        PROVIDE (TA0CCR1 = 0x394)
+                [!provide]                        PROVIDE (TA0CCR2 = 0x396)
+                [!provide]                        PROVIDE (TA0IV = 0x3ae)
+                [!provide]                        PROVIDE (TA0EX0 = 0x3a0)
+                [!provide]                        PROVIDE (TA1CTL = 0x3c0)
+                [!provide]                        PROVIDE (TA1CCTL0 = 0x3c2)
+                [!provide]                        PROVIDE (TA1CCTL1 = 0x3c4)
+                [!provide]                        PROVIDE (TA1CCTL2 = 0x3c6)
+                [!provide]                        PROVIDE (TA1R = 0x3d0)
+                [!provide]                        PROVIDE (TA1CCR0 = 0x3d2)
+                [!provide]                        PROVIDE (TA1CCR1 = 0x3d4)
+                [!provide]                        PROVIDE (TA1CCR2 = 0x3d6)
+                [!provide]                        PROVIDE (TA1IV = 0x3ee)
+                [!provide]                        PROVIDE (TA1EX0 = 0x3e0)
+                [!provide]                        PROVIDE (TA2CTL = 0x400)
+                [!provide]                        PROVIDE (TA2CCTL0 = 0x402)
+                [!provide]                        PROVIDE (TA2CCTL1 = 0x404)
+                [!provide]                        PROVIDE (TA2R = 0x410)
+                [!provide]                        PROVIDE (TA2CCR0 = 0x412)
+                [!provide]                        PROVIDE (TA2CCR1 = 0x414)
+                [!provide]                        PROVIDE (TA2IV = 0x42e)
+                [!provide]                        PROVIDE (TA2EX0 = 0x420)
+                [!provide]                        PROVIDE (TA3CTL = 0x440)
+                [!provide]                        PROVIDE (TA3CCTL0 = 0x442)
+                [!provide]                        PROVIDE (TA3CCTL1 = 0x444)
+                [!provide]                        PROVIDE (TA3R = 0x450)
+                [!provide]                        PROVIDE (TA3CCR0 = 0x452)
+                [!provide]                        PROVIDE (TA3CCR1 = 0x454)
+                [!provide]                        PROVIDE (TA3IV = 0x46e)
+                [!provide]                        PROVIDE (TA3EX0 = 0x460)
+                0x0000000000000500                PROVIDE (UCA0CTLW0 = 0x500)
+                [!provide]                        PROVIDE (UCA0CTLW0_L = 0x500)
+                0x0000000000000501                PROVIDE (UCA0CTLW0_H = 0x501)
+                [!provide]                        PROVIDE (UCA0CTLW1 = 0x502)
+                [!provide]                        PROVIDE (UCA0CTLW1_L = 0x502)
+                [!provide]                        PROVIDE (UCA0CTLW1_H = 0x503)
+                [!provide]                        PROVIDE (UCA0BRW = 0x506)
+                0x0000000000000506                PROVIDE (UCA0BRW_L = 0x506)
+                0x0000000000000507                PROVIDE (UCA0BRW_H = 0x507)
+                0x0000000000000508                PROVIDE (UCA0MCTLW = 0x508)
+                [!provide]                        PROVIDE (UCA0MCTLW_L = 0x508)
+                [!provide]                        PROVIDE (UCA0MCTLW_H = 0x509)
+                [!provide]                        PROVIDE (UCA0STATW = 0x50a)
+                [!provide]                        PROVIDE (UCA0RXBUF = 0x50c)
+                [!provide]                        PROVIDE (UCA0RXBUF_L = 0x50c)
+                [!provide]                        PROVIDE (UCA0RXBUF_H = 0x50d)
+                0x000000000000050e                PROVIDE (UCA0TXBUF = 0x50e)
+                [!provide]                        PROVIDE (UCA0TXBUF_L = 0x50e)
+                [!provide]                        PROVIDE (UCA0TXBUF_H = 0x50f)
+                [!provide]                        PROVIDE (UCA0ABCTL = 0x510)
+                [!provide]                        PROVIDE (UCA0IRCTL = 0x512)
+                [!provide]                        PROVIDE (UCA0IRCTL_L = 0x512)
+                [!provide]                        PROVIDE (UCA0IRCTL_H = 0x513)
+                [!provide]                        PROVIDE (UCA0IE = 0x51a)
+                [!provide]                        PROVIDE (UCA0IE_L = 0x51a)
+                [!provide]                        PROVIDE (UCA0IE_H = 0x51b)
+                0x000000000000051c                PROVIDE (UCA0IFG = 0x51c)
+                [!provide]                        PROVIDE (UCA0IFG_L = 0x51c)
+                [!provide]                        PROVIDE (UCA0IFG_H = 0x51d)
+                [!provide]                        PROVIDE (UCA0IV = 0x51e)
+                [!provide]                        PROVIDE (UCA1CTLW0 = 0x520)
+                [!provide]                        PROVIDE (UCA1CTLW0_L = 0x520)
+                [!provide]                        PROVIDE (UCA1CTLW0_H = 0x521)
+                [!provide]                        PROVIDE (UCA1CTLW1 = 0x522)
+                [!provide]                        PROVIDE (UCA1CTLW1_L = 0x522)
+                [!provide]                        PROVIDE (UCA1CTLW1_H = 0x523)
+                [!provide]                        PROVIDE (UCA1BRW = 0x526)
+                [!provide]                        PROVIDE (UCA1BRW_L = 0x526)
+                [!provide]                        PROVIDE (UCA1BRW_H = 0x527)
+                [!provide]                        PROVIDE (UCA1MCTLW = 0x528)
+                [!provide]                        PROVIDE (UCA1MCTLW_L = 0x528)
+                [!provide]                        PROVIDE (UCA1MCTLW_H = 0x529)
+                [!provide]                        PROVIDE (UCA1STATW = 0x52a)
+                [!provide]                        PROVIDE (UCA1RXBUF = 0x52c)
+                [!provide]                        PROVIDE (UCA1RXBUF_L = 0x52c)
+                [!provide]                        PROVIDE (UCA1RXBUF_H = 0x52d)
+                [!provide]                        PROVIDE (UCA1TXBUF = 0x52e)
+                [!provide]                        PROVIDE (UCA1TXBUF_L = 0x52e)
+                [!provide]                        PROVIDE (UCA1TXBUF_H = 0x52f)
+                [!provide]                        PROVIDE (UCA1ABCTL = 0x530)
+                [!provide]                        PROVIDE (UCA1IRCTL = 0x532)
+                [!provide]                        PROVIDE (UCA1IRCTL_L = 0x532)
+                [!provide]                        PROVIDE (UCA1IRCTL_H = 0x533)
+                [!provide]                        PROVIDE (UCA1IE = 0x53a)
+                [!provide]                        PROVIDE (UCA1IE_L = 0x53a)
+                [!provide]                        PROVIDE (UCA1IE_H = 0x53b)
+                [!provide]                        PROVIDE (UCA1IFG = 0x53c)
+                [!provide]                        PROVIDE (UCA1IFG_L = 0x53c)
+                [!provide]                        PROVIDE (UCA1IFG_H = 0x53d)
+                [!provide]                        PROVIDE (UCA1IV = 0x53e)
+                [!provide]                        PROVIDE (UCB0CTLW0 = 0x540)
+                [!provide]                        PROVIDE (UCB0CTLW0_L = 0x540)
+                [!provide]                        PROVIDE (UCB0CTLW0_H = 0x541)
+                [!provide]                        PROVIDE (UCB0CTLW1 = 0x542)
+                [!provide]                        PROVIDE (UCB0CTLW1_L = 0x542)
+                [!provide]                        PROVIDE (UCB0CTLW1_H = 0x543)
+                [!provide]                        PROVIDE (UCB0BRW = 0x546)
+                [!provide]                        PROVIDE (UCB0BRW_L = 0x546)
+                [!provide]                        PROVIDE (UCB0BRW_H = 0x547)
+                [!provide]                        PROVIDE (UCB0STATW = 0x548)
+                [!provide]                        PROVIDE (UCB0STATW_L = 0x548)
+                [!provide]                        PROVIDE (UCB0STATW_H = 0x549)
+                [!provide]                        PROVIDE (UCB0TBCNT = 0x54a)
+                [!provide]                        PROVIDE (UCB0TBCNT_L = 0x54a)
+                [!provide]                        PROVIDE (UCB0TBCNT_H = 0x54b)
+                [!provide]                        PROVIDE (UCB0RXBUF = 0x54c)
+                [!provide]                        PROVIDE (UCB0RXBUF_L = 0x54c)
+                [!provide]                        PROVIDE (UCB0RXBUF_H = 0x54d)
+                [!provide]                        PROVIDE (UCB0TXBUF = 0x54e)
+                [!provide]                        PROVIDE (UCB0TXBUF_L = 0x54e)
+                [!provide]                        PROVIDE (UCB0TXBUF_H = 0x54f)
+                [!provide]                        PROVIDE (UCB0I2COA0 = 0x554)
+                [!provide]                        PROVIDE (UCB0I2COA0_L = 0x554)
+                [!provide]                        PROVIDE (UCB0I2COA0_H = 0x555)
+                [!provide]                        PROVIDE (UCB0I2COA1 = 0x556)
+                [!provide]                        PROVIDE (UCB0I2COA1_L = 0x556)
+                [!provide]                        PROVIDE (UCB0I2COA1_H = 0x557)
+                [!provide]                        PROVIDE (UCB0I2COA2 = 0x558)
+                [!provide]                        PROVIDE (UCB0I2COA2_L = 0x558)
+                [!provide]                        PROVIDE (UCB0I2COA2_H = 0x559)
+                [!provide]                        PROVIDE (UCB0I2COA3 = 0x55a)
+                [!provide]                        PROVIDE (UCB0I2COA3_L = 0x55a)
+                [!provide]                        PROVIDE (UCB0I2COA3_H = 0x55b)
+                [!provide]                        PROVIDE (UCB0ADDRX = 0x55c)
+                [!provide]                        PROVIDE (UCB0ADDRX_L = 0x55c)
+                [!provide]                        PROVIDE (UCB0ADDRX_H = 0x55d)
+                [!provide]                        PROVIDE (UCB0ADDMASK = 0x55e)
+                [!provide]                        PROVIDE (UCB0ADDMASK_L = 0x55e)
+                [!provide]                        PROVIDE (UCB0ADDMASK_H = 0x55f)
+                [!provide]                        PROVIDE (UCB0I2CSA = 0x560)
+                [!provide]                        PROVIDE (UCB0I2CSA_L = 0x560)
+                [!provide]                        PROVIDE (UCB0I2CSA_H = 0x561)
+                [!provide]                        PROVIDE (UCB0IE = 0x56a)
+                [!provide]                        PROVIDE (UCB0IE_L = 0x56a)
+                [!provide]                        PROVIDE (UCB0IE_H = 0x56b)
+                [!provide]                        PROVIDE (UCB0IFG = 0x56c)
+                [!provide]                        PROVIDE (UCB0IFG_L = 0x56c)
+                [!provide]                        PROVIDE (UCB0IFG_H = 0x56d)
+                [!provide]                        PROVIDE (UCB0IV = 0x56e)
+                [!provide]                        PROVIDE (WDTCTL = 0x1cc)
+                [!provide]                        PROVIDE (WDTCTL_L = 0x1cc)
+                [!provide]                        PROVIDE (WDTCTL_H = 0x1cd)
+OUTPUT(BlinkLED_MSP430FR2433_03.out elf32-msp430)
