@@ -4,7 +4,7 @@
 
 #SHELL = cmd.exe
 
-CG_TOOL_ROOT := /home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64
+CG_TOOL_ROOT := /home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_linux64
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -200,7 +200,7 @@ BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 BlinkLED_MSP430FR2433_03.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: GNU Objcopy Utility'
-	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/msp430-elf-objcopy.exe"  $(EXE_OUTPUTS__QUOTED) "BlinkLED_MSP430FR2433_03.hex"
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_linux64/bin/msp430-elf-objcopy.exe"  $(EXE_OUTPUTS__QUOTED) "BlinkLED_MSP430FR2433_03.hex"
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
