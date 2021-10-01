@@ -3,5 +3,6 @@
 *.obj
 *.d_raw
 *.out
+*.out.strip
 *.map
 *_linkInfo.xml
