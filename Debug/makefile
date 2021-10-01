@@ -68,8 +68,8 @@ $(GEN_CMDS__FLAG) \
 
 -include ../makefile.init
 
-RM := DEL /F
-RMDIR := RMDIR /S/Q
+RM := rm -fr
+RMDIR := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
@@ -193,7 +193,7 @@ all: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: GNU Linker'
-	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/msp430-elf-gcc-9.3.1.exe" -mhwmult=f5series -Og -g -gdwarf-3 -gstrict-dwarf -Wall -mmcu=msp430fr2433 -Wl,-Map,"BlinkLED_MSP430FR2433_03.map" -Wl,--gc-sections -L"/home/ti/ti/ccs1040/ccs/ccs_base/msp430/include_gcc" -mmcu=msp430fr2433 -o"BlinkLED_MSP430FR2433_03.out" $(ORDERED_OBJS)
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_linux64/bin/msp430-elf-gcc-9.3.1" -mhwmult=f5series -Og -g -gdwarf-3 -gstrict-dwarf -Wall -mmcu=msp430fr2433 -Wl,-Map,"BlinkLED_MSP430FR2433_03.map" -Wl,--gc-sections -L"/home/ti/ti/ccs1040/ccs/ccs_base/msp430/include_gcc" -mmcu=msp430fr2433 -o"BlinkLED_MSP430FR2433_03.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 

@@ -66,8 +66,8 @@ $(GEN_CMDS__FLAG) \
 
 -include ../makefile.init
 
-RM := DEL /F
-RMDIR := RMDIR /S/Q
+RM := rm -fr
+RMDIR := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
