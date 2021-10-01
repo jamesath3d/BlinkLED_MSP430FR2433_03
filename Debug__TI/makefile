@@ -2,9 +2,9 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-SHELL = cmd.exe
+#SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS
+CG_TOOL_ROOT := /home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -191,14 +191,14 @@ all: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2433__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"BlinkLED_MSP430FR2433_03.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1040/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1040/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" -i"C:/ti/ccs1040/ccs/ccs_base/msp430/include_gcc" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="BlinkLED_MSP430FR2433_03_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "BlinkLED_MSP430FR2433_03.out" $(ORDERED_OBJS)
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2433__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"BlinkLED_MSP430FR2433_03.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"/home/ti/ti/ccs1040/ccs/ccs_base/msp430/include" -i"/home/ti/ti/ccs1040/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" -i"/home/ti/ti/ccs1040/ccs/ccs_base/msp430/include_gcc" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="BlinkLED_MSP430FR2433_03_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "BlinkLED_MSP430FR2433_03.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 BlinkLED_MSP430FR2433_03.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off -o "BlinkLED_MSP430FR2433_03.hex" $(EXE_OUTPUTS__QUOTED)
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off -o "BlinkLED_MSP430FR2433_03.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 

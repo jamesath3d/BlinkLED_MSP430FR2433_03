@@ -2,9 +2,9 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-SHELL = cmd.exe
+#SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64
+CG_TOOL_ROOT := /home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -193,14 +193,14 @@ all: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: GNU Linker'
-	"C:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/msp430-elf-gcc-9.3.1.exe" -mhwmult=f5series -Og -g -gdwarf-3 -gstrict-dwarf -Wall -mmcu=msp430fr2433 -Wl,-Map,"BlinkLED_MSP430FR2433_03.map" -Wl,--gc-sections -L"C:/ti/ccs1040/ccs/ccs_base/msp430/include_gcc" -mmcu=msp430fr2433 -o"BlinkLED_MSP430FR2433_03.out" $(ORDERED_OBJS)
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/msp430-elf-gcc-9.3.1.exe" -mhwmult=f5series -Og -g -gdwarf-3 -gstrict-dwarf -Wall -mmcu=msp430fr2433 -Wl,-Map,"BlinkLED_MSP430FR2433_03.map" -Wl,--gc-sections -L"/home/ti/ti/ccs1040/ccs/ccs_base/msp430/include_gcc" -mmcu=msp430fr2433 -o"BlinkLED_MSP430FR2433_03.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 BlinkLED_MSP430FR2433_03.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: GNU Objcopy Utility'
-	"C:/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/msp430-elf-objcopy.exe"  $(EXE_OUTPUTS__QUOTED) "BlinkLED_MSP430FR2433_03.hex"
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_win64/bin/msp430-elf-objcopy.exe"  $(EXE_OUTPUTS__QUOTED) "BlinkLED_MSP430FR2433_03.hex"
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
