@@ -4,3 +4,4 @@
 *.d_raw
 *.out
 *.map
+*_linkInfo.xml
