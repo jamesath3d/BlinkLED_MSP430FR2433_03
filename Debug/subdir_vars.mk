@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#SHELL = cmd.exe
+SHELL = /usr/bin/sh
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LD_SRCS += \

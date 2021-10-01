@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#SHELL = cmd.exe
+SHELL = /usr/bin/sh
 
 CG_TOOL_ROOT := /home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_linux64
 
@@ -187,7 +187,7 @@ BIN_OUTPUTS__QUOTED += \
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "BlinkLED_MSP430FR2433_03.out"
+	@$(MAKE) --no-print-directory -Onone "BlinkLED_MSP430FR2433_03.out" secondary-outputs
 
 # Tool invocations
 BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
@@ -200,7 +200,7 @@ BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 BlinkLED_MSP430FR2433_03.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: GNU Objcopy Utility'
-	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_linux64/bin/msp430-elf-objcopy.exe"  $(EXE_OUTPUTS__QUOTED) "BlinkLED_MSP430FR2433_03.hex"
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/msp430-gcc-9.3.1.11_linux64/bin/msp430-elf-objcopy" --strip-all --strip-debug --strip-unneeded $(EXE_OUTPUTS__QUOTED) "BlinkLED_MSP430FR2433_03.hex"
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
@@ -213,6 +213,8 @@ clean:
 	-$(RM) "driverlib\MSP430FR2xx_4xx\pmm.d" "driverlib\MSP430FR2xx_4xx\rtc.d" "driverlib\MSP430FR2xx_4xx\sac.d" "driverlib\MSP430FR2xx_4xx\sfr.d" "driverlib\MSP430FR2xx_4xx\sysctl.d" "driverlib\MSP430FR2xx_4xx\tia.d" "driverlib\MSP430FR2xx_4xx\timer_a.d" "driverlib\MSP430FR2xx_4xx\timer_b.d" "driverlib\MSP430FR2xx_4xx\tlv.d" "driverlib\MSP430FR2xx_4xx\wdt_a.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
+
+secondary-outputs: $(BIN_OUTPUTS)
 
 .PHONY: all clean dependents
 .SECONDARY:

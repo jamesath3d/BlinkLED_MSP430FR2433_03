@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#SHELL = cmd.exe
+SHELL = /usr/bin/sh
 
 CG_TOOL_ROOT := /home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS
 
@@ -177,15 +177,15 @@ EXE_OUTPUTS__QUOTED += \
 "BlinkLED_MSP430FR2433_03.out" \
 
 BIN_OUTPUTS += \
-BlinkLED_MSP430FR2433_03.hex \
+BlinkLED_MSP430FR2433_03.txt \
 
 BIN_OUTPUTS__QUOTED += \
-"BlinkLED_MSP430FR2433_03.hex" \
+"BlinkLED_MSP430FR2433_03.txt" \
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "BlinkLED_MSP430FR2433_03.out"
+	@$(MAKE) --no-print-directory -Onone "BlinkLED_MSP430FR2433_03.out" secondary-outputs
 
 # Tool invocations
 BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
@@ -195,10 +195,10 @@ BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-BlinkLED_MSP430FR2433_03.hex: $(EXE_OUTPUTS)
+BlinkLED_MSP430FR2433_03.txt: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off -o "BlinkLED_MSP430FR2433_03.hex" $(EXE_OUTPUTS__QUOTED)
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "BlinkLED_MSP430FR2433_03.txt" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
@@ -211,6 +211,8 @@ clean:
 	-$(RM) "driverlib\MSP430FR2xx_4xx\pmm.d" "driverlib\MSP430FR2xx_4xx\rtc.d" "driverlib\MSP430FR2xx_4xx\sac.d" "driverlib\MSP430FR2xx_4xx\sfr.d" "driverlib\MSP430FR2xx_4xx\sysctl.d" "driverlib\MSP430FR2xx_4xx\tia.d" "driverlib\MSP430FR2xx_4xx\timer_a.d" "driverlib\MSP430FR2xx_4xx\timer_b.d" "driverlib\MSP430FR2xx_4xx\tlv.d" "driverlib\MSP430FR2xx_4xx\wdt_a.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
+
+secondary-outputs: $(BIN_OUTPUTS)
 
 .PHONY: all clean dependents
 .SECONDARY:

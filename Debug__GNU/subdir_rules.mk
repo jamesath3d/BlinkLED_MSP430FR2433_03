@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#SHELL = cmd.exe
+SHELL = /usr/bin/sh
 
 # Each subdirectory must supply rules for building sources it contributes
 %.o: ../%.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
