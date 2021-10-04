@@ -72,8 +72,10 @@ RMDIR := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir_vars.mk
+-include Debug__TIT/subdir_vars.mk
 -include driverlib/MSP430FR2xx_4xx/subdir_vars.mk
 -include subdir_rules.mk
+-include Debug__TIT/subdir_rules.mk
 -include driverlib/MSP430FR2xx_4xx/subdir_rules.mk
 -include objects.mk
 
@@ -177,10 +179,10 @@ EXE_OUTPUTS__QUOTED += \
 "BlinkLED_MSP430FR2433_03.out" \
 
 BIN_OUTPUTS += \
-BlinkLED_MSP430FR2433_03.txt \
+BlinkLED_MSP430FR2433_03.hex \
 
 BIN_OUTPUTS__QUOTED += \
-"BlinkLED_MSP430FR2433_03.txt" \
+"BlinkLED_MSP430FR2433_03.hex" \
 
 
 # All Target
@@ -195,10 +197,10 @@ BlinkLED_MSP430FR2433_03.out: $(OBJS) $(CMD_SRCS) $(LD_SRCS) $(GEN_CMDS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-BlinkLED_MSP430FR2433_03.txt: $(EXE_OUTPUTS)
+BlinkLED_MSP430FR2433_03.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "BlinkLED_MSP430FR2433_03.txt" $(EXE_OUTPUTS__QUOTED)
+	"/home/ti/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --intel -o "BlinkLED_MSP430FR2433_03.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
