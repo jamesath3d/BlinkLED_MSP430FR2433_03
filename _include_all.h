@@ -8,7 +8,10 @@
 #ifndef INCLUDE_ALL_H_
 #define INCLUDE_ALL_H_
 
-#include <driverlib.h>
+//#include <driverlib.h>
+#include <stdint.h>
+#include <msp430.h>
+#include <gpio.h>
 
 #include "_bit_set.h"
 #include "_i2c01.h"

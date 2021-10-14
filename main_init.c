@@ -9,9 +9,10 @@
 
 void main_init(void){
     // Stop watchdog timer
-#ifndef TEST01
-    WDT_A_hold(WDT_A_BASE);
-#endif
+//#ifndef tt4
+//    WDT_A_hold(WDT_A_BASE);
+    WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
+//#endif
 
     //_led_red_set_output();
     //_led_green_set_output();
@@ -31,8 +32,12 @@ void main_init(void){
 
     // Disable the GPIO power-on default high-impedance mode
     // to activate previously configured port settings
-#ifndef TEST01
-    PMM_unlockLPM5();
-#endif
+//#ifndef tt4
+//    PMM_unlockLPM5();
+    PM5CTL0 &= ~LOCKLPM5;
+//#endif
+//#ifdef tt4
+//#error 33j13j3j1kkk
+//#endif
 
 }
