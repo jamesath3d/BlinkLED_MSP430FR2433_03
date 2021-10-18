@@ -8,9 +8,11 @@
 //#include "_include_all.h"
 #include "_led_all.h"
 
+/*
 void _led_red_toggle(void){
     GPIO_toggleOutputOnPin(
         GPIO_PORT_P1,
         GPIO_PIN6  // Toggle P1.6 output
         );
 }
+*/

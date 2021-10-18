@@ -8,6 +8,7 @@
 
 #include "_i2c01.h"
 
+/*
 void _i2c01_init(void){
 
     GPIO_setAsOutputPin(
@@ -25,3 +26,4 @@ void _i2c01_init(void){
         );
 }
 
+*/

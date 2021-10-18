@@ -7,6 +7,7 @@
 
 #include "_include_all.h"
 
+/*
 void _led_green_set_output(void){
 
     GPIO_setAsOutputPin(
@@ -16,3 +17,4 @@ void _led_green_set_output(void){
 
 }
 
+*/

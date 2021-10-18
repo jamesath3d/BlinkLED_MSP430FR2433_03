@@ -1,5 +1,6 @@
 #include "_include_all.h"
 
+/*
 void _led_red_set_output(void){
     // Set P1.0 to output direction
 
@@ -9,3 +10,4 @@ void _led_red_set_output(void){
         );
 
 }
+*/

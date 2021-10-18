@@ -6,6 +6,7 @@
  */
 #include "_include_all.h"
 
+/*
 
 void _led_green_toggle(void){
     GPIO_toggleOutputOnPin(
@@ -13,3 +14,4 @@ void _led_green_toggle(void){
         GPIO_PIN7  // Toggle P1.7 output
         );
 }
+*/

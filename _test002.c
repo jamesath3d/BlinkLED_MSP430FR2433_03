@@ -7,6 +7,7 @@
 
 #include "_test.h"
 
+/*
 void _test002(void){
 
     volatile int8_t j;
@@ -48,3 +49,4 @@ void _test002(void){
     _i2c01_clk_to_1();
 
 }
+*/
