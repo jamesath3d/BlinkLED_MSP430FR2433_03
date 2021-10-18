@@ -13,7 +13,7 @@
 //#include "_i2c01.h"
 
 
-// p1.0/red
+// p1.6/red
 #define _LED_red_PORT_            1
 #define _LED_red_PIN_             6
 #define _LED_red_TO_1()           { _Set1_(_LED_red); }     // to 1
