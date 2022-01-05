@@ -23,6 +23,9 @@
 #include "_uart_p1_5_tx_only.h"
 #include "_cable_tester.h"
 
+#include "_gpio_init.h"
+#include "_clk_init.h"
+
 //#include "_include_all.h"
 
 void main_init(void);
