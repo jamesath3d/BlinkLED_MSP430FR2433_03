@@ -13,6 +13,8 @@
  * note : This is only available in enhanced CS systems.
  * #define SELA2                  ( SELA << 1 )
  * #define _aclk_to_10khz  CSCTL4 = ( CSCTL4 & (~(SELA | SELA2 ))) | SELA2 ; // set Aclk to 10 kHz
+ * 00b = XT1CLK with divider (must be no more than 40 kHz) // SELA -> 0
+ * 01b = REFO (internal 32-kHz clock source)               // SELA -> 1
 */
 
 #define _mclk_to_32768  CSCTL4 = ( CSCTL4 & (~(SELMS0 | SELMS1 | SELMS2 ))) | SELMS1 ; // set mclk & smclk to 32768 Hz
