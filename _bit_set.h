@@ -31,6 +31,13 @@
 
 #define _READbit_(name) (_PinT(name) & _BbitT(name))
 
+#define _Pres_(ddd)   _CONCAT3(P,ddd,REN)
+#define _PresT(pdpd)  _Pres_(pdpd##_PORT_)
+#define _SetIN_resistor_ON(res)    _PresT(res) |=     _BbitT(res)   
+#define _SetIN_resistor_OFF(res)   _PresT(res) &= ( ~ _BbitT(res) ) 
+#define _SetIN_pullUP(name)     _SetIN_( name ) ; _SetIN_resistor_ON(name); _Set1_(name);
+#define _SetIN_pullDOWN(name)   _SetIN_( name ) ; _SetIN_resistor_ON(name); _Set0_(name);
+
 uint8_t _bit_count(uint8_t ___byte);
 uint8_t _bit_set(uint8_t ___byte);
 void _byte_set(uint8_t ___cnt, uint8_t ___arr[] , uint8_t ___byte);
