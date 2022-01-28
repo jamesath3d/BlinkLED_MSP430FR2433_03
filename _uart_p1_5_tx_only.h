@@ -10,6 +10,8 @@
 
 #include "_include_all.h"
 
+#define _UART_P1_5_TX_PUT_CH_5      _UART_P1_5_TX_PUT_CH('5') 
+#define _UART_P1_5_TX_PUT_CH_A      _UART_P1_5_TX_PUT_CH('A') 
 #define _UART_P1_5_TX_PUT_CH(ch) {while(!(UCA0IFG & UCTXIFG));UCA0TXBUF = ch;__delay_cycles(84);}
 
 void _uart_p1_5_tx_only_init(void);
