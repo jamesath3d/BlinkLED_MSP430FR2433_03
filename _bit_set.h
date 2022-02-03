@@ -29,8 +29,8 @@
 #define _SetIN_(name)  { _PdirT(name) &= ( ~ _BbitT(name) ) ; }
 #define _SetOUT_(name) { _PdirT(name) |=     _BbitT(name)   ; }
 
-#define _SetRENoff_(name) { _PrenT(name) &= ( ~ _BbitT(name) ) ; }
 #define _SetRENon_(name)  { _PrenT(name) |=     _BbitT(name)   ; }
+#define _SetRENoff_(name) { _PrenT(name) &= ( ~ _BbitT(name) ) ; }
 
 #define _PinInAsOffInitOut0(name)  { _SetRENoff_(name); _SetIN_(name); _Set0_(name); }
 #define _PinInAsOffInitOut1(name)  { _SetRENoff_(name); _SetIN_(name); _Set1_(name); }
@@ -42,10 +42,8 @@
 
 #define _Pres_(ddd)   _CONCAT3(P,ddd,REN)
 #define _PresT(pdpd)  _Pres_(pdpd##_PORT_)
-#define _SetIN_resistor_ON(res)    _PresT(res) |=     _BbitT(res)   
-#define _SetIN_resistor_OFF(res)   _PresT(res) &= ( ~ _BbitT(res) ) 
-#define _SetIN_pullUP(name)     _SetIN_( name ) ; _SetIN_resistor_ON(name); _Set1_(name);
-#define _SetIN_pullDOWN(name)   _SetIN_( name ) ; _SetIN_resistor_ON(name); _Set0_(name);
+#define _SetIN_pullUP(name)     _SetIN_( name ) ; _SetRENon_(name); _Set1_(name);
+#define _SetIN_pullDOWN(name)   _SetIN_( name ) ; _SetRENon_(name); _Set0_(name);
 
 uint8_t _bit_count(uint8_t ___byte);
 uint8_t _bit_set(uint8_t ___byte);
