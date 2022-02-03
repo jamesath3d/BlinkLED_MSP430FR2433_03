@@ -9,6 +9,9 @@
 #define _Pdir_(ddd)   _CONCAT3(P,ddd,DIR)
 #define _PdirT(pdpd)  _Pdir_(pdpd##_PORT_)
 
+#define _Pren_(ddd)   _CONCAT3(P,ddd,REN)
+#define _PrenT(pdpd)  _Pren_(pdpd##_PORT_)
+
 #define _Pout_(ddd)   _CONCAT3(P,ddd,OUT)
 #define _PoutT(popo)  _Pout_(popo##_PORT_)
 
@@ -25,6 +28,12 @@
 
 #define _SetIN_(name)  { _PdirT(name) &= ( ~ _BbitT(name) ) ; }
 #define _SetOUT_(name) { _PdirT(name) |=     _BbitT(name)   ; }
+
+#define _SetRENoff_(name) { _PrenT(name) &= ( ~ _BbitT(name) ) ; }
+#define _SetRENon_(name)  { _PrenT(name) |=     _BbitT(name)   ; }
+
+#define _PinInAsOffInitOut0(name)  { _SetRENoff_(name); _SetIN_(name); _Set0_(name); }
+#define _PinInAsOffInitOut1(name)  { _SetRENoff_(name); _SetIN_(name); _Set1_(name); }
 
 #define _Set0_(name)   { _PoutT(name) &= ( ~ _BbitT(name) ) ; }
 #define _Set1_(name)   { _PoutT(name) |=     _BbitT(name)   ; }

@@ -21,6 +21,7 @@ void _uart_p1_5_tx_only_put_ch(uint8_t ___hexbyte);
 void _uart_p1_5_tx_only_put_str(char ___hexbyte[]);
 void _uart_p1_5_tx_only_put_rn(void);
 void _uart_p1_5_tx_only_put_uint32(uint32_t ___uuu);
+void _uart_p1_5_tx_only_put_uint16(uint16_t ___uuu);
 void _uart_p1_5_tx_only_put_hex_half(uint8_t ___hexbyte);
 void _uart_p1_5_tx_only_put_hex(uint8_t ___hexbyte);
 void _uart_p1_5_tx_only_put_hex_u8(uint8_t ___hexbyte);

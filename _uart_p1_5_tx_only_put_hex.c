@@ -27,6 +27,19 @@ void _uart_p1_5_tx_only_put_uint32(uint32_t ___uuu){
     _UART_P1_5_TX_PUT_CH(' ');
 }
 
+void _uart_p1_5_tx_only_put_uint16(uint16_t ___uuu){
+    uint8_t  __u;
+    _UART_P1_5_TX_PUT_CH(' ');
+
+    __u = ( ___uuu >> 8 ) & 0xFF ;
+    _uart_p1_5_tx_only_put_hex(__u);
+
+    __u = ___uuu & 0xFF ;
+    _uart_p1_5_tx_only_put_hex(__u);
+
+    _UART_P1_5_TX_PUT_CH(' ');
+}
+
 
 void _uart_p1_5_tx_only_put_hex_half(uint8_t ___hexhalf){
     ___hexhalf &= 0xf;
