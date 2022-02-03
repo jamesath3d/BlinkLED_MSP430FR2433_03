@@ -95,6 +95,40 @@ void _uart_p1_5_tx_only_put_str(char ___str[]){
     }
 } // _uart_p1_5_tx_only_put_str
 
+void _uart_p1_5_tx_only_put_uint32d(uint32_t ___uuu){
+    uint8_t  __i;
+    uint8_t  __u;
+    uint8_t  __en;
+    uint32_t  __x1;
+    uint32_t  __x2;
+
+    _UART_P1_5_TX_PUT_CH(' ');
+
+    if ( 0 == ___uuu ) {
+        _UART_P1_5_TX_PUT_CH('0');
+    } else {
+        //__x1 = 0x2710 ; // 10000d
+        __x1 = 0x3b9aca00 ; // 1000000000d
+        __en = 0 ;
+        for ( __i = 10 ; __i > 0 ; __i -- ) {
+            __x2 = ___uuu / __x1 ;
+            __u = __x2 & 0xF;
+            if ( 0 == __u ) {
+                if ( __en ) {
+                    _UART_P1_5_TX_PUT_CH('0');
+                }
+            } else {
+                _uart_p1_5_tx_only_put_hex_half(__u);
+                __en = 1 ;
+            }
+            ___uuu -= __x1 * __u ; 
+            __x1 /= 10 ;
+        }
+    }
+
+    _UART_P1_5_TX_PUT_CH(' ');
+} // _uart_p1_5_tx_only_put_uint32d
+
 void _uart_p1_5_tx_only_put_uint16d(uint16_t ___uuu){
     uint8_t  __i;
     uint8_t  __u;
