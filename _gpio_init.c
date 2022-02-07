@@ -4,7 +4,7 @@
 void _gpio_init()
 {
     P1DIR = 0xFF; 
-    //P2DIR = 0xFF; 
+    P2DIR = 0xFF; 
     P3DIR = 0xFF;
 
     P1REN = 0xFF; 
