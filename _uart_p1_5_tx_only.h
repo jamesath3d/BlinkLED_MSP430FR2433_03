@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef UART_P1_5_TX_ONLY_H_
-#define UART_P1_5_TX_ONLY_H_
+#ifndef __UART_P1_5_TX_ONLY_H__
+#define __UART_P1_5_TX_ONLY_H__
 
 #include "_include_all.h"
 

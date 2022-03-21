@@ -1,6 +1,6 @@
 
-#ifndef _GPIO_INIT_H
-#define _GPIO_INIT_H
+#ifndef __GPIO_INIT_H__
+#define __GPIO_INIT_H__
 
 void _gpio_init();
 

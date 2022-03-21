@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef LED_ALL_H_
-#define LED_ALL_H_
+#ifndef __LED_ALL_H__
+#define __LED_ALL_H__
 
 #include "_include_all.h"
 

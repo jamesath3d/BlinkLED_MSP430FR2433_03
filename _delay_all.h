@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef DELAY_ALL_H_
-#define DELAY_ALL_H_
+#ifndef __DELAY_ALL_H__
+#define __DELAY_ALL_H__
 
 #include "_include_all.h"
 

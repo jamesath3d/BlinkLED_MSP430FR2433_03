@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef CABLE_TESTER_H_
-#define CABLE_TESTER_H_
+#ifndef __CABLE_TESTER_H__
+#define __CABLE_TESTER_H__
 
 #include "_include_all.h"
 

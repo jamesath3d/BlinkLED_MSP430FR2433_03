@@ -1,7 +1,7 @@
 
 
-#ifndef _CLK_INIT_H
-#define _CLK_INIT_H
+#ifndef __CLK_INIT_H__
+#define __CLK_INIT_H__
 
 #define _wdt_stop       WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
     // Disable the GPIO power-on default high-impedance mode
@@ -33,6 +33,7 @@
 /* CSCTL6 Control Bits */
 #define _trun_off_xt1 CSCTL6 = (CSCTL6 & (~( XT1DRIVE0 | XT1DRIVE1 ))) | XT1AGCOFF  ;
 
-void _clk_init_1mhz(void);
+void _clk_init_1mhz( void ___enable_gpio(void) );
+void _clk_init_16mhz(void ___enable_gpio(void) );
 
 #endif

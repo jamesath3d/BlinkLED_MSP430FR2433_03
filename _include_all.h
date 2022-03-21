@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef INCLUDE_ALL_H_
-#define INCLUDE_ALL_H_
+#ifndef __INCLUDE_ALL_H__
+#define __INCLUDE_ALL_H__
 
 //#include <driverlib.h>
 #include <stdint.h>
@@ -25,6 +25,7 @@
 
 #include "_gpio_init.h"
 #include "_clk_init.h"
+#include "_wdt_init.h"
 
 //#include "_include_all.h"
 

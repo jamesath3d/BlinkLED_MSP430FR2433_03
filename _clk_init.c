@@ -26,9 +26,12 @@ void _clk_init_32768(void){
     __delay_cycles(33); // 0.1 second
 } // _clk_init_32768
 
-void _clk_init_1mhz(void){
+void _clk_init_1mhz( void ___gpio_init(void) ){
     _wdt_stop;
 
+    if ( ___gpio_init ) {
+        ___gpio_init();
+    }
     _gpio_enable;
 
     __delay_cycles(100000); // 0.1 second
@@ -68,7 +71,7 @@ void _clk_init_8mhz(void){
 
 } // _clk_init_8mhz
 
-void _clk_init_16mhz(void){
+void _clk_init_16mhz( void ___gpio_init(void) ){
 
     _wdt_stop;
 
@@ -99,7 +102,11 @@ void _clk_init_16mhz(void){
     CSCTL5 = DIVM__1;
     //end code
 
+    if ( ___gpio_init ) {
+        ___gpio_init();
+    }
     _gpio_enable;
+
     __delay_cycles(160000); // 0.1 second
 
 } // _clk_init_16mhz

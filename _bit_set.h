@@ -1,6 +1,6 @@
 
-#ifndef BIT_SET_H_
-#define BIT_SET_H_
+#ifndef __BIT_SET_H__
+#define __BIT_SET_H__
 
 #include "_include_all.h"
 #define _CONCAT3(A,B,C)   A##B##C

@@ -1,5 +1,5 @@
-#ifndef I2C_EXPENDER01_
-#define I2C_EXPENDER01_
+#ifndef __I2C_EXPENDER01__
+#define __I2C_EXPENDER01__
 
 #include "_include_all.h"
 

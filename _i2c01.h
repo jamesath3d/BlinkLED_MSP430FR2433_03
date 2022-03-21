@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef I2C01_H_
-#define I2C01_H_
+#ifndef __I2C01_H__
+#define __I2C01_H__
 
 #include "_include_all.h"
 //#include "_i2c01.h"

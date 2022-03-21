@@ -5,8 +5,8 @@
  *      Author: james
  */
 
-#ifndef TEST_H_
-#define TEST_H_
+#ifndef __TEST_H__
+#define __TEST_H__
 
 #include "_include_all.h"
 
