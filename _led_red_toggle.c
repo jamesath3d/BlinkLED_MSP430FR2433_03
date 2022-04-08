@@ -6,7 +6,8 @@
  */
 
 //#include "_include_all.h"
-#include "_led_all.h"
+//#include "_led_all.h"
+#include "main.h"
 
 /*
 void _led_red_toggle(void){

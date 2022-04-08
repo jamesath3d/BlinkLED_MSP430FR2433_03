@@ -5,7 +5,8 @@
  *      Author: james
  */
 
-#include "_include_all.h"
+//#include "_include_all.h"
+#include "main.h"
 
 uint8_t _vr61[6];
 uint8_t _vr62[6];

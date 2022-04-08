@@ -1,5 +1,6 @@
 //#include <driverlib.h>
-#include "_include_all.h"
+//#include "_include_all.h"
+#include "main.h"
 
 void _delay_1s(void){
     volatile uint32_t i;

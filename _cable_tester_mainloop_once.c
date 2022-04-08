@@ -6,7 +6,8 @@
  */
 
 
-#include "_cable_tester.h"
+//#include "_cable_tester.h"
+#include "main.h"
 
 static uint32_t _cbidx ;
 static uint8_t _co6x2[12];

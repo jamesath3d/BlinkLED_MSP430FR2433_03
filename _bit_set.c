@@ -6,7 +6,8 @@
  */
 
 
-#include "_bit_set.h"
+//#include "_bit_set.h"
+#include "main.h"
 void _bit_and(uint8_t ___cnt, uint8_t ___A[], uint8_t ___B[], uint8_t ___O[] ){
     uint8_t __ii ;
     for ( __ii = 0 ; __ii < ___cnt ; __ii ++ ) {

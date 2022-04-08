@@ -7,7 +7,8 @@
     // P1.5 -> uartRX
  */
 
-#include "_uart_p1_5_tx_only.h"
+//#include "_uart_p1_5_tx_only.h"
+#include "main.h"
 
 void _uart_p1_5_tx_only_init(void){
 

@@ -5,7 +5,8 @@
  *      Author: james
  */
 
-#include "_uart_p1_5_tx_only.h"
+//#include "_uart_p1_5_tx_only.h"
+#include "main.h"
 
 void _uart_p1_5_tx_only_put_rn(void){
     _UART_P1_5_TX_PUT_CH('\r');

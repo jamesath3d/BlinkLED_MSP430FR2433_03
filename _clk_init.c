@@ -1,5 +1,6 @@
 
-#include "_include_all.h"
+//#include "_include_all.h"
+#include "main.h"
 // _clk_init.h
 
 
@@ -8,7 +9,7 @@ void _clk_init_16384(void){
 
     _mclk_to_32768  ;
     _divm_to_2      ;
-    _aclk_to_32768  ;
+    _aclk_src_to_32768  ;
 
     _gpio_enable;
 
@@ -19,7 +20,7 @@ void _clk_init_32768(void){
     _wdt_stop;
 
     _mclk_to_32768  ;
-    _aclk_to_32768  ;
+    _aclk_src_to_32768  ;
 
     _gpio_enable;
 

@@ -23,15 +23,19 @@
 #define _divm_to_4      CSCTL5 = ( CSCTL5 & (~(DIVM2 | DIVM1 | DIVM0 ))) | SELMS1 ;          // set DIVM to 4 ==>  8192
 #define _divm_to_8      CSCTL5 = ( CSCTL5 & (~(DIVM2 | DIVM1 | DIVM0 ))) | SELMS1 | SELMS0 ; // set DIVM to 8 ==>  4096
 
-#define _aclk_to_32768  CSCTL4 =   CSCTL4 |    SELA                               ; // set Aclk to 32768 
+#define _aclk_src_to_32768  CSCTL4 =   CSCTL4 |    SELA                               ; // set Aclk source to 32768 
 
-#define _clk_to_32768  { _mclk_to_32768  ;                ; _aclk_to_32768  ; }
-#define _clk_to_16384  { _mclk_to_32768  ; _divm_to_2     ; _aclk_to_32768  ; }
-#define _clk_to_8192   { _mclk_to_32768  ; _divm_to_4     ; _aclk_to_32768  ; }
-#define _clk_to_4096   { _mclk_to_32768  ; _divm_to_8     ; _aclk_to_32768  ; }
+#define _clk_to_32768  { _mclk_to_32768  ;                ; _aclk_src_to_32768  ; }
+#define _clk_to_16384  { _mclk_to_32768  ; _divm_to_2     ; _aclk_src_to_32768  ; }
+#define _clk_to_8192   { _mclk_to_32768  ; _divm_to_4     ; _aclk_src_to_32768  ; }
+#define _clk_to_4096   { _mclk_to_32768  ; _divm_to_8     ; _aclk_src_to_32768  ; }
 
 /* CSCTL6 Control Bits */
 #define _trun_off_xt1 CSCTL6 = (CSCTL6 & (~( XT1DRIVE0 | XT1DRIVE1 ))) | XT1AGCOFF  ;
+
+// #define SELREF0                (0x0010)       // FLL Reference Clock Select Bit : 0 
+#define _set_RefCLK_32k_as_FLL_DCO_clk_source               CSCTL3 |= SELREF0               ; 
+// select REFOCLK as the DCO's source.  // then default is 1Mhz of FLL's output as MCU's main clock source
 
 void _clk_init_1mhz( void ___enable_gpio(void) );
 void _clk_init_16mhz(void ___enable_gpio(void) );

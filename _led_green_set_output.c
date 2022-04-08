@@ -5,7 +5,8 @@
  *      Author: james
  */
 
-#include "_include_all.h"
+//#include "_include_all.h"
+#include "main.h"
 
 /*
 void _led_green_set_output(void){

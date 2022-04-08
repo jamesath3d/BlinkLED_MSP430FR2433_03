@@ -5,7 +5,8 @@
  *      Author: james
  */
 
-#include "_i2c_expander01.h"
+//#include "_i2c_expander01.h"
+#include "main.h"
 
 uint8_t _i2c_expander01_check_sda1(void){
     uint8_t __ii ;

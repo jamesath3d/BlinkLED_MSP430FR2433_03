@@ -5,8 +5,9 @@
  *      Author: james
  */
 
-#include <msp430.h>
-#include "_uart_p1_5_tx_only.h"
+//#include <msp430.h>
+//#include "_uart_p1_5_tx_only.h"
+#include "main.h"
 
 unsigned char _TXdata ;
 void _uart_p1_5_tx_only_testloop(void){

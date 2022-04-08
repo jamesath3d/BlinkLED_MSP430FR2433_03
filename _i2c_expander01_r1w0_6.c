@@ -5,7 +5,8 @@
  *      Author: james
  */
 
-#include "_i2c_expander01.h"
+//#include "_i2c_expander01.h"
+#include "main.h"
 
 inline uint8_t _i2c_expander01_r1w0_6x(uint8_t ___r1w0, uint8_t ___i2cIdx, uint8_t ___r6[]){
 
