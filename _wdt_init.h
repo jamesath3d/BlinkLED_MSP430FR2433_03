@@ -37,20 +37,41 @@
 
 // #define Clk16384
 #ifdef  Clk16384
-#define ClkInit(args...)       _clk_init_16384(args)
-#define Delay_1000ms()  __delay_cycles(16384)  //  1000 ms
-#define Delay_100ms()   __delay_cycles(1638)   //  100  ms
-#define Delay_10ms()    __delay_cycles(163)    //  10   ms
-#define Delay_1ms()     __delay_cycles(16)     //  1    ms
+#define ClkInit(args...)    _clk_init_16384(args)
+#define Delay_1000ms()      __delay_cycles(16384)       //  1000 ms
+#define Delay_100ms()       __delay_cycles(1638)        //  100  ms
+#define Delay_10ms()        __delay_cycles(163)         //  10   ms
+#define Delay_1ms()         __delay_cycles(16)          //  1    ms
+#define Delay_250us()       __delay_cycles(4)           //  250  us
+#define Delay_200us()       __delay_cycles(4)           //  250  us
+#define Delay_125us()       __delay_cycles(2)           //  125  us
+#define Delay_100us()       __delay_cycles(1)           //  62.5 us
 #define Delay_Defined   1
 #endif
 
 #ifdef  Clk16mhz
-#define ClkInit(args...)       _clk_init_16mhz(args)
-#define Delay_1000ms()  __delay_cycles(16384)  //  1000 ms
-#define Delay_100ms()   __delay_cycles(1638)   //  100  ms
-#define Delay_10ms()    __delay_cycles(163)    //  10   ms
-#define Delay_1ms()     __delay_cycles(16)     //  1    ms
+#define ClkInit(args...)    _clk_init_16mhz(args)
+#define Delay_1000ms()      __delay_cycles(16000000)    //  1000 ms
+#define Delay_100ms()       __delay_cycles(1600000)     //  100  ms
+#define Delay_10ms()        __delay_cycles(160000)      //  10   ms
+#define Delay_1ms()         __delay_cycles(16000)       //  1    ms
+#define Delay_250us()       __delay_cycles(4000)        //  250  us
+#define Delay_200us()       __delay_cycles(3200)        //  200  us
+#define Delay_125us()       __delay_cycles(2000)        //  125  us
+#define Delay_100us()       __delay_cycles(1600)        //  100  us
+#define Delay_Defined   1
+#endif
+
+#ifdef  Clk1mhz
+#define ClkInit(args...)    _clk_init_16mhz(args)
+#define Delay_1000ms()      __delay_cycles(1000000)     //  1000 ms
+#define Delay_100ms()       __delay_cycles(100000)      //  100  ms
+#define Delay_10ms()        __delay_cycles(10000)       //  10   ms
+#define Delay_1ms()         __delay_cycles(1000)        //  1    ms
+#define Delay_250us()       __delay_cycles(250)         //  250  us
+#define Delay_200us()       __delay_cycles(200)         //  200  us
+#define Delay_125us()       __delay_cycles(125)         //  125  us
+#define Delay_100us()       __delay_cycles(100)         //  100  us
 #define Delay_Defined   1
 #endif
 

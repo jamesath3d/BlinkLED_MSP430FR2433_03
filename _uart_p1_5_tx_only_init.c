@@ -19,9 +19,14 @@ void _uart_p1_5_tx_only_init(void){
         UCA0CTLW0 |= UCSWRST;                     // Put eUSCI in reset
         UCA0CTLW0 |= UCSSEL__SMCLK;
         UCA0CTL0 |= BIT3 ;                        // UCSPB ; // set 8n2 (2 stop bits)
+
+#ifdef Clk1mhz
         // Baud Rate calculation
         UCA0BR0 = 8;                              // 1000000/115200 = 8.68
         UCA0MCTLW = 0xD600;                       // 1000000/115200 - INT(1000000/115200)=0.68
+#else
+#error "more work need to be do to adjust the divider for the UART"
+#endif
                                                   // UCBRSx value = 0xD6 (See UG)
 
         UCA0BR1 = 0;
