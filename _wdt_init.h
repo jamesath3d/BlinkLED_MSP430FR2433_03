@@ -79,4 +79,6 @@
 #error " You must define Clk16384 or Clk16mhz, # 388348181 "
 #endif
 
+void _wdt_timer_gap_60ms_at_1Mhz_main_clk(void) ; // main clk is 1 Mhz, default, need extra-adjustment if necessary
+
 #endif

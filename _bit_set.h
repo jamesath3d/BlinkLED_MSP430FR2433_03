@@ -15,35 +15,53 @@
 
 
 
-#define _Pdir_(ddd)   _CONCAT3(P,ddd,DIR)
-#define _PdirT(pdpd)  _Pdir_(pdpd##_PORT_)
+#define _Pdir_(ddd)     _CONCAT3(P,ddd,DIR)
+#define _PdirT(pdpd)    _Pdir_(pdpd##_PORT_)
+#define _PdirX(pp)      _Pdir_(_Port(pp))
 
-#define _Pren_(ddd)   _CONCAT3(P,ddd,REN)
-#define _PrenT(pdpd)  _Pren_(pdpd##_PORT_)
+#define _Pren_(ddd)     _CONCAT3(P,ddd,REN)
+#define _PrenT(pdpd)    _Pren_(pdpd##_PORT_)
+#define _PrenX(pp)      _Pren_(_Port(pp))
 
-#define _Pout_(ddd)   _CONCAT3(P,ddd,OUT)
-#define _PoutT(popo)  _Pout_(popo##_PORT_)
+#define _Pout_(ddd)     _CONCAT3(P,ddd,OUT)
+#define _PoutT(popo)    _Pout_(popo##_PORT_)
+#define _PoutX(pp)      _Pout_(_Port(pp))
 
-#define _Pin_(ddd)   _CONCAT3(P,ddd,IN)
-#define _PinT(pipi)  _Pin_(pipi##_PORT_)
+#define _Pin_(ddd)      _CONCAT3(P,ddd,IN)
+#define _PinT(pipi)     _Pin_(pipi##_PORT_)
+#define _PinX(pp)       _Pin_(_Pin(pp))
 
-#define _Bbit_(bb)  _CONCAT2(BIT,bb)
-#define _BbitT(bt)  _Bbit_(bt##_PIN_)
+#define _Bbit_(bb)      _CONCAT2(BIT,bb)
+#define _BbitT(bt)      _Bbit_(bt##_PIN_)
+#define _BbitX(pp)      _Bbit_(_Pin(pp))
 
-#define _Pres_(ddd)   _CONCAT3(P,ddd,REN)
-#define _PresT(pdpd)  _Pres_(pdpd##_PORT_)
+#define _Pres_(ddd)     _CONCAT3(P,ddd,REN)
+#define _PresT(pdpd)    _Pres_(pdpd##_PORT_)
+#define _PresX(pp)      _Pres_(_Port(pp))
 
 
-#define _SetInX(PortPin)  { PortPin##_dir &= ( ~ PortPin##_bit ) ; }
-#define _SetOutX(PortPin) { PortPin##_dir |=     PortPin##_bit   ; }
-#define _Set0X(PortPin)   { PortPin##_out &= ( ~ PortPin##_bit ) ; }
-#define _Set1X(PortPin)   { PortPin##_out |=     PortPin##_bit   ; }
-#define _SetRenOnX(PortPin)  { _PrenT(PortPin) |=     _BbitT(PortPin)   ; }
-#define _SetRenOffX(PortPin) { _PrenT(PortPin) &= ( ~ _BbitT(PortPin) ) ; }
-#define _READbitX(PortPin) (_PinT(PortPin) & _BbitT(PortPin))
+// P1DIR |= BIT3 // P1.3 -> as Output
+// P1OUT |= BIT3 // P1.3 -> bit output register set to 1
+// P1IN & BIT3   // read P1.3's value( if input)
 
-#define _PinInAsOffInitOut0x(PortPin)  { _SetRENoff_(PortPin); _SetIN_(PortPin); _Set0_(PortPin); }
-#define _PinInAsOffInitOut1x(PortPin)  { _SetRENoff_(PortPin); _SetIN_(PortPin); _Set1_(PortPin); }
+
+#define _SetInX(p1,b1)          { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
+#define _SetOutX(p1,b1)         { P ## p1 ## DIR    |=     BIT ## b1   ; }
+#define _Set0X(ppp)             { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
+#define _Set1X(ppp)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
+#define _SetRenOnX(ppp)         { P ## p1 ## REN    |=     BIT ## b1   ; }
+#define _SetRenOffX(ppp)        { P ## p1 ## REN    &= ( ~ BIT ## b1 ) ; }
+#define _READbitX(ppp)          ( (P ## p1 ## IN)   &  (BIT ## b1)       )
+#define _SetOut0X(ppp)          { _SetOutX( ppp ); _Set0X( ppp ); }
+//#define _SetOut0Y(ppp,...)      { _SetOutX(ppp);   _SetOut0Y( __VA_ARGS__ ); }
+//#define _SetOut0Z(p1,p2,...)    { _SetOutX(p1,p2); }
+//#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   _SetOut0Y( __VA_ARGS__ ); }
+#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   }
+#define _SetOut0Z(p1,...)    { _SetOut0Y(p1); }
+//#define led_10_init()           { _PinInAsOffInitOut0(led_10); }
+
+#define _PinInAsOffInitOut0x(ppp)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
+#define _PinInAsOffInitOut1x(ppp)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set1_(ppp); }
 
 
 
