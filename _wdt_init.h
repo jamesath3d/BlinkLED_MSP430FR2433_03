@@ -37,7 +37,7 @@
 
 // #define Clk16384
 #ifdef  Clk16384
-#define ClkInit(args...)    _clk_init_16384(args)
+#define ClkInit             _clk_init_16384         
 #define Delay_1000ms()      __delay_cycles(16384)       //  1000 ms
 #define Delay_100ms()       __delay_cycles(1638)        //  100  ms
 #define Delay_10ms()        __delay_cycles(163)         //  10   ms
@@ -50,7 +50,7 @@
 #endif
 
 #ifdef  Clk16mhz
-#define ClkInit(args...)    _clk_init_16mhz(args)
+#define ClkInit             _clk_init_16mhz
 #define Delay_1000ms()      __delay_cycles(16000000)    //  1000 ms
 #define Delay_100ms()       __delay_cycles(1600000)     //  100  ms
 #define Delay_10ms()        __delay_cycles(160000)      //  10   ms
@@ -63,7 +63,7 @@
 #endif
 
 #ifdef  Clk8mhz
-#define ClkInit(args...)    _clk_init_8mhz(args)
+#define ClkInit             _clk_init_8mhz
 #define Delay_1000ms()      __delay_cycles(8000000)     //  1000 ms
 #define Delay_100ms()       __delay_cycles(800000)      //  100  ms
 #define Delay_10ms()        __delay_cycles(80000)       //  10   ms
@@ -76,7 +76,7 @@
 #endif
 
 #ifdef  Clk1mhz
-#define ClkInit(args...)    _clk_init_1mhz(args)
+#define ClkInit             _clk_init_1mhz         
 #define Delay_1000ms()      __delay_cycles(1000000)     //  1000 ms
 #define Delay_100ms()       __delay_cycles(100000)      //  100  ms
 #define Delay_10ms()        __delay_cycles(10000)       //  10   ms
