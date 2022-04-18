@@ -25,7 +25,19 @@ void _uart_p1_5_tx_only_init(void){
         UCA0BR0 = 8;                              // 1000000/115200 = 8.68
         UCA0MCTLW = 0xD600;                       // 1000000/115200 - INT(1000000/115200)=0.68
 #else
+#ifdef Clk16mhz
+        // Baud Rate calculation
+        UCA0BR0 = 8;                              // 1000000/115200 = 8.68
+        UCA0MCTLW = 0xD600;                       // 1000000/115200 - INT(1000000/115200)=0.68
+#else
+#ifdef Clk8mhz
+        // Baud Rate calculation
+        UCA0BR0 = 8;                              // 1000000/115200 = 8.68
+        UCA0MCTLW = 0xD600;                       // 1000000/115200 - INT(1000000/115200)=0.68
+#else
 #error "more work need to be do to adjust the divider for the UART"
+#endif
+#endif
 #endif
                                                   // UCBRSx value = 0xD6 (See UG)
 

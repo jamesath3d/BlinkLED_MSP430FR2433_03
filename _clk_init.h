@@ -3,7 +3,9 @@
 #ifndef __CLK_INIT_H__
 #define __CLK_INIT_H__
 
-#define _wdt_stop       WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
+#define _wdt_reset_stop     _wdt_hardware_reset_stop       
+#define _wdt_stop           _wdt_hardware_reset_stop       
+#define _wdt_hardware_reset_stop       WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
     // Disable the GPIO power-on default high-impedance mode
     // to activate previously configured port settings
     //    PMM_unlockLPM5();

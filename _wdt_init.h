@@ -62,8 +62,21 @@
 #define Delay_Defined   1
 #endif
 
+#ifdef  Clk8mhz
+#define ClkInit(args...)    _clk_init_8mhz(args)
+#define Delay_1000ms()      __delay_cycles(8000000)     //  1000 ms
+#define Delay_100ms()       __delay_cycles(800000)      //  100  ms
+#define Delay_10ms()        __delay_cycles(80000)       //  10   ms
+#define Delay_1ms()         __delay_cycles(8000)        //  1    ms
+#define Delay_250us()       __delay_cycles(2000)        //  250  us
+#define Delay_200us()       __delay_cycles(1600)        //  200  us
+#define Delay_125us()       __delay_cycles(1000)        //  125  us
+#define Delay_100us()       __delay_cycles(800)         //  100  us
+#define Delay_Defined   1
+#endif
+
 #ifdef  Clk1mhz
-#define ClkInit(args...)    _clk_init_16mhz(args)
+#define ClkInit(args...)    _clk_init_1mhz(args)
 #define Delay_1000ms()      __delay_cycles(1000000)     //  1000 ms
 #define Delay_100ms()       __delay_cycles(100000)      //  100  ms
 #define Delay_10ms()        __delay_cycles(10000)       //  10   ms
