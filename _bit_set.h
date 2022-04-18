@@ -57,7 +57,7 @@
 //#define _SetOut0Z(p1,p2,...)    { _SetOutX(p1,p2); }
 //#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   _SetOut0Y( __VA_ARGS__ ); }
 #define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   }
-#define _SetOut0Z(p1,...)    { _SetOut0Y(p1); }
+#define _SetOut0Z(p1,...)    { _SetOut0Y(p1); _SetOut0Z(__VA_ARGS__);    }
 //#define led_10_init()           { _PinInAsOffInitOut0(led_10); }
 
 #define _PinInAsOffInitOut0x(ppp)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
