@@ -41,5 +41,6 @@
 
 void _clk_init_1mhz( void ___enable_gpio(void) );
 void _clk_init_16mhz(void ___enable_gpio(void) );
+void _clk_init_8mhz( void ___gpio_init(void) );
 
 #endif

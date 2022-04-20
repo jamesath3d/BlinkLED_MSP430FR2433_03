@@ -3,12 +3,28 @@
 #include "main.h"
 // _clk_init.h
 
+#define _gpio_mclk_p13  P1DIR |= BIT3 ; P1SEL1 |= BIT3 ; P1SEL0 &= ~BIT3 ; // dir->1, selx->10 : link mclk  to p1.3, for oscilloscope debuging
+#define _gpio_smclk_p17 P1DIR |= BIT7 ; P1SEL1 |= BIT7 ; P1SEL0 &= ~BIT7 ; // dir->1, selx->10 : link smclk to p1.7, for oscilloscope debuging
+#define _gpio_aclk_p22  P2DIR |= BIT2 ; P2SEL1 |= BIT2 ; P2SEL0 &= ~BIT2 ; // dir->1, selx->10 : link aclk  to p2.2, for oscilloscope debuging
+
+//#define _GPIO_ENABLE_or_using_oscilloscop_debug {_clk_init_debug_by_oscillosope();}
+
+#ifndef _GPIO_ENABLE_or_using_oscilloscop_debug 
+#define _GPIO_ENABLE_or_using_oscilloscop_debug _gpio_enable
+#endif
 
 void _clk_init_debug_by_oscillosope(void){
+    _gpio_enable;
+    while (0){
+        P1DIR |= BIT3 ; P1OUT  &= ~BIT3 ;  P1OUT  |= BIT3 ;
+        P1DIR |= BIT7 ; P1OUT  &= ~BIT7 ;  P1OUT  |= BIT7 ;
+        P2DIR |= BIT2 ; P2OUT  &= ~BIT2 ;  P2OUT  |= BIT2 ;
+    }
+
     if(1){
-        P1DIR |= BIT3 ; P1SEL1 |= BIT3 ; P1SEL0 &= ~BIT3 ; // dir->1, selx->10 : link mclk  to p1.3, for oscilloscope debuging
-        P1DIR |= BIT7 ; P1SEL1 |= BIT7 ; P1SEL0 &= ~BIT7 ; // dir->1, selx->10 : link smclk to p1.7, for oscilloscope debuging
-        P2DIR |= BIT2 ; P2SEL1 |= BIT2 ; P2SEL0 &= ~BIT2 ; // dir->1, selx->10 : link aclk  to p2.2, for oscilloscope debuging
+        _gpio_mclk_p13  ;
+        _gpio_smclk_p17 ;
+        _gpio_aclk_p22  ;
 
         P1DIR |= BIT0 ;
         while(1){
@@ -25,7 +41,7 @@ void _clk_init_16384(void){
     _divm_to_2      ;
     _aclk_src_to_32768  ;
 
-    _gpio_enable;
+    _GPIO_ENABLE_or_using_oscilloscop_debug;
 
     __delay_cycles(16); // 0.1 second
 } // _clk_init_16384
@@ -36,7 +52,7 @@ void _clk_init_32768(void){
     _mclk_to_32768  ;
     _aclk_src_to_32768  ;
 
-    _gpio_enable;
+    _GPIO_ENABLE_or_using_oscilloscop_debug;
 
     __delay_cycles(33); // 0.1 second
 } // _clk_init_32768
@@ -47,9 +63,7 @@ void _clk_init_1mhz( void ___gpio_init(void) ){
     if ( ___gpio_init ) {
         ___gpio_init();
     }
-    _gpio_enable;
-
-    _clk_init_debug_by_oscillosope();
+    _GPIO_ENABLE_or_using_oscilloscop_debug;
 
     __delay_cycles(100000); // 0.1 second
 } // _clk_init_1mhz
@@ -90,9 +104,7 @@ void _clk_init_8mhz( void ___gpio_init(void) ){
     if ( ___gpio_init ) {
         ___gpio_init();
     }
-    _gpio_enable;
-
-    _clk_init_debug_by_oscillosope();
+    _GPIO_ENABLE_or_using_oscilloscop_debug;
 
     __delay_cycles(80000); // 0.1 second
 
@@ -122,7 +134,7 @@ void _clk_init_16mhz( void ___gpio_init(void) ){
         //enable FLL
         __bic_SR_register(SCG0);
         //poll until FLL is locked
-        while(CSCTL7 & (FLLUNLOCK0 + FLLUNLOCK1));
+        //while(CSCTL7 & (FLLUNLOCK0 + FLLUNLOCK1));
         //set default REFO(~32768Hz) as ACLK source, ACLK = 32768Hz
         //default DCODIV as MCLK and SMCLK source
         CSCTL4 = SELMS__DCOCLKDIV + SELA__REFOCLK;
@@ -136,9 +148,7 @@ void _clk_init_16mhz( void ___gpio_init(void) ){
     if ( ___gpio_init ) {
         ___gpio_init();
     }
-    _gpio_enable;
-
-    _clk_init_debug_by_oscillosope();
+    _GPIO_ENABLE_or_using_oscilloscop_debug;
 
     __delay_cycles(160000); // 0.1 second
 
