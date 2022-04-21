@@ -60,8 +60,8 @@
 #define _SetOut0Z(p1,...)    { _SetOut0Y(p1); _SetOut0Z(__VA_ARGS__);    }
 //#define led_10_init()           { _PinInAsOffInitOut0(led_10); }
 
-#define _PinInAsOffInitOut0x(ppp)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
-#define _PinInAsOffInitOut1x(ppp)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set1_(ppp); }
+//#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
+#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
 
 
 

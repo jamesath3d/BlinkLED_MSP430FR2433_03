@@ -3,6 +3,11 @@
 #ifndef __CLK_INIT_H__
 #define __CLK_INIT_H__
 
+#define _gpio_mclk_p13  P1DIR |= BIT3 ; P1SEL1 |= BIT3 ; P1SEL0 &= ~BIT3 ; // dir->1, selx->10 : link mclk  to p1.3, for oscilloscope debuging
+#define _gpio_smclk_p17 P1DIR |= BIT7 ; P1SEL1 |= BIT7 ; P1SEL0 &= ~BIT7 ; // dir->1, selx->10 : link smclk to p1.7, for oscilloscope debuging
+#define _gpio_aclk_p22  P2DIR |= BIT2 ; P2SEL1 |= BIT2 ; P2SEL0 &= ~BIT2 ; // dir->1, selx->10 : link aclk  to p2.2, for oscilloscope debuging
+
+
 #define _wdt_reset_stop     _wdt_hardware_reset_stop       
 #define _wdt_stop           _wdt_hardware_reset_stop       
 #define _wdt_hardware_reset_stop       WDTCTL = WDTPW | WDTHOLD; // Stop watchdog timer
