@@ -45,23 +45,37 @@
 // P1IN & BIT3   // read P1.3's value( if input)
 
 
-#define _SetInX(p1,b1)          { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
-#define _SetOutX(p1,b1)         { P ## p1 ## DIR    |=     BIT ## b1   ; }
-#define _Set0X(ppp)             { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
-#define _Set1X(ppp)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
-#define _SetRenOnX(ppp)         { P ## p1 ## REN    |=     BIT ## b1   ; }
-#define _SetRenOffX(ppp)        { P ## p1 ## REN    &= ( ~ BIT ## b1 ) ; }
-#define _READbitX(ppp)          ( (P ## p1 ## IN)   &  (BIT ## b1)       )
-#define _SetOut0X(ppp)          { _SetOutX( ppp ); _Set0X( ppp ); }
-//#define _SetOut0Y(ppp,...)      { _SetOutX(ppp);   _SetOut0Y( __VA_ARGS__ ); }
-//#define _SetOut0Z(p1,p2,...)    { _SetOutX(p1,p2); }
-//#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   _SetOut0Y( __VA_ARGS__ ); }
-#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   }
-#define _SetOut0Z(p1,...)    { _SetOut0Y(p1); _SetOut0Z(__VA_ARGS__);    }
-//#define led_10_init()           { _PinInAsOffInitOut0(led_10); }
+#define _Set1X(port,pin)             { P ## port ## OUT    |=     BIT ## pin   ; }
+#define _Set0X(port,pin)             { P ## port ## OUT    &= ( ~ BIT ## pin ) ; }
+#define _Set1Y(...)                  _Set1X( __VA_ARGS__ )
+#define _Set0Y(...)                  _Set0X( __VA_ARGS__ )
 
+#define _SetInX(p1,b1)              { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
+#define _SetOutX(p1,b1)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
+#define _SetInY(...)                _SetInX( __VA_ARGS__ )
+#define _SetOutY(...)               _SetOutX( __VA_ARGS__ )
+
+#define _SetRenOnX(p1,b1)           { P ## p1 ## REN    |=     BIT ## b1   ; }
+#define _SetRenOffX(p1,b1)          { P ## p1 ## REN    &= ( ~ BIT ## b1 ) ; }
+#define _SetRenOnY(...)             _SetRenOnX( __VA_ARGS__ )
+#define _SetRenOffY(...)            _SetRenOffX( __VA_ARGS__ )
+
+#define _PinitAsInOffOut0X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set0X(p1,b1); }
+#define _PinitAsInOffOut1X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set1X(p1,b1); }
+#define _PinitAsInOffOut0Y(...)     _PinitAsInOffOut0X( __VA_ARGS__ )
+#define _PinitAsInOffOut1Y(...)     _PinitAsInOffOut1X( __VA_ARGS__ )
+
+//#define _READbitX(ppp)          ( (P ## p1 ## IN)   &  (BIT ## b1)       )
+//#define _SetOut0X(ppp)          { _SetOutX( ppp ); _Set0X( ppp ); }
+////#define _SetOut0Y(ppp,...)      { _SetOutX(ppp);   _SetOut0Y( __VA_ARGS__ ); }
+////#define _SetOut0Z(p1,p2,...)    { _SetOutX(p1,p2); }
+////#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   _SetOut0Y( __VA_ARGS__ ); }
+//#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   }
+//#define _SetOut0Z(p1,...)    { _SetOut0Y(p1); _SetOut0Z(__VA_ARGS__);    }
+////#define led_10_init()           { _PinInAsOffInitOut0(led_10); }
+//
+////#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
 //#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
-#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
 
 
 

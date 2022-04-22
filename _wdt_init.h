@@ -35,6 +35,8 @@
 #define _WdtAsTimer_VLO_ (_WdtAsTimer__ + WDTSSEL__VLO)
 // how to set WDTCTL ====== end
 
+#define Delay_0()           
+
 // #define Clk16384
 #ifdef  Clk16384
 #define ClkInit             _clk_init_16384         
@@ -52,10 +54,13 @@
 #ifdef  Clk16mhz
 #define ClkInit             _clk_init_16mhz
 #define Delay_10000ms()     __delay_cycles(160000000)   //  10000 ms
+#define Delay_2000ms()      __delay_cycles(32000000)    //  2000 ms
 #define Delay_1000ms()      __delay_cycles(16000000)    //  1000 ms
 #define Delay_500ms()       __delay_cycles(8000000)     //  500  ms
 #define Delay_200ms()       __delay_cycles(3200000)     //  200  ms
 #define Delay_100ms()       __delay_cycles(1600000)     //  100  ms
+#define Delay_50ms()        __delay_cycles( 800000)     //  50   ms
+#define Delay_20ms()        __delay_cycles(320000)      //  20   ms
 #define Delay_10ms()        __delay_cycles(160000)      //  10   ms
 #define Delay_5ms()         __delay_cycles(80000)       //  5    ms
 #define Delay_2ms()         __delay_cycles(32000)       //  2    ms
