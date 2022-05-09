@@ -47,23 +47,39 @@
 
 #define _Set1X(port,pin)             { P ## port ## OUT    |=     BIT ## pin   ; }
 #define _Set0X(port,pin)             { P ## port ## OUT    &= ( ~ BIT ## pin ) ; }
-#define _Set1Y(...)                  _Set1X( __VA_ARGS__ )
-#define _Set0Y(...)                  _Set0X( __VA_ARGS__ )
+//#define _Set1Y(...)                  _Set1X( __VA_ARGS__ )
+//#define _Set0Y(...)                  _Set0X( __VA_ARGS__ )
 
 #define _SetInX(p1,b1)              { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
 #define _SetOutX(p1,b1)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
-#define _SetInY(...)                _SetInX( __VA_ARGS__ )
-#define _SetOutY(...)               _SetOutX( __VA_ARGS__ )
+//#define _SetInY(...)                _SetInX( __VA_ARGS__ )
+//#define _SetOutY(...)               _SetOutX( __VA_ARGS__ )
 
 #define _SetRenOnX(p1,b1)           { P ## p1 ## REN    |=     BIT ## b1   ; }
 #define _SetRenOffX(p1,b1)          { P ## p1 ## REN    &= ( ~ BIT ## b1 ) ; }
-#define _SetRenOnY(...)             _SetRenOnX( __VA_ARGS__ )
-#define _SetRenOffY(...)            _SetRenOffX( __VA_ARGS__ )
+//#define _SetRenOnY(...)             _SetRenOnX( __VA_ARGS__ )
+//#define _SetRenOffY(...)            _SetRenOffX( __VA_ARGS__ )
 
 #define _PinitAsInOffOut0X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set0X(p1,b1); }
 #define _PinitAsInOffOut1X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set1X(p1,b1); }
-#define _PinitAsInOffOut0Y(...)     _PinitAsInOffOut0X( __VA_ARGS__ )
-#define _PinitAsInOffOut1Y(...)     _PinitAsInOffOut1X( __VA_ARGS__ )
+//#define _PinitAsInOffOut0Y(a1,b1)    _PinitAsInOffOut0X( a1,b1)
+#define _PinitAsInOffOut0Y(...)    _PinitAsInOffOut0X( _XX(__VA_ARGS__))
+//#define _PinitAsInOffOut1Y(...)     _PinitAsInOffOut1X( __VA_ARGS__ )
+
+#define _ZZZ
+#define _XX20( ff , ...) 
+//#define _XX21( ff , aa, bb, ...) { ff ( aa, bb ) ; _XX20( ff, __VA_ARGS__ ) ; }
+#define _XX21( ff , aa, bb, ...) { ff ( aa, bb ) ; _XX20( ff, _XX(__VA_ARGS__) ) ; }
+#define _XX21x( ...) _XX21( _XX( __VA_ARGS__ ) )
+#define _XX22( ff , aa, bb, ...) { ff( aa, bb ) ; _XX21( ff, __VA_ARGS__ ) ; }
+#define _XX23( ff , aa, bb, ...) { ff( aa, bb ) ; _XX22( ff, __VA_ARGS__ ) ; }
+#define _XX24( ff , aa, bb, ...) { ff( aa, bb ) ; _XX23( ff, __VA_ARGS__ ) ; }
+#define _XX25( ff , aa, bb, ...) { ff( aa, bb ) ; _XX24( ff, __VA_ARGS__ ) ; }
+#define _XX2( ffff, ...) ffff( __VA_ARGS__ )
+#define _XX( ...) __VA_ARGS__ 
+
+#define _X2( ff, a11, a12, a21, a22 ) { ff( a11, a12 ) ; ff( a21, a22 ) }
+#define _Y2( ff, ... ) _X2( ff , __VA_ARGS__ )
 
 //#define _READbitX(ppp)          ( (P ## p1 ## IN)   &  (BIT ## b1)       )
 //#define _SetOut0X(ppp)          { _SetOutX( ppp ); _Set0X( ppp ); }
