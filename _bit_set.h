@@ -57,8 +57,18 @@
 #define _PinitAsInOffOut0X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set0X(p1,b1); }
 #define _PinitAsInOffOut1X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set1X(p1,b1); }
 
-#define _X2( ff, a11, a12, a21, a22 ) { ff( a11, a12 ) ; ff( a21, a22 ) }
+//#define _X2( ff, a11, a12, a21, a22 ) { ff( a11, a12 ) ; ff( a21, a22 ) }
+#define _X1( ff, a11, a12 ) { ff( a11, a12 ) ; }
+#define _X2( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y1( ff, __VA_ARGS__ ) }
+#define _X3( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y2( ff, __VA_ARGS__ ) }
+#define _X4( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y3( ff, __VA_ARGS__ ) }
+#define _X5( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y4( ff, __VA_ARGS__ ) }
+
+#define _Y1( ff, ... ) _X1( ff , __VA_ARGS__ )
 #define _Y2( ff, ... ) _X2( ff , __VA_ARGS__ )
+#define _Y3( ff, ... ) _X3( ff , __VA_ARGS__ )
+#define _Y4( ff, ... ) _X4( ff , __VA_ARGS__ )
+#define _Y5( ff, ... ) _X5( ff , __VA_ARGS__ )
 
 //#define _READbitX(ppp)          ( (P ## p1 ## IN)   &  (BIT ## b1)       )
 //#define _SetOut0X(ppp)          { _SetOutX( ppp ); _Set0X( ppp ); }
