@@ -51,6 +51,9 @@
 #define _SetInX(p1,b1)              { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
 #define _SetOutX(p1,b1)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
 
+#define _SetOutX1(p1,b1)            { _SetOutX(p1,b1) ; _Set1X(p1,b1); }
+#define _SetOutX0(p1,b1)            { _SetOutX(p1,b1) ; _Set0X(p1,b1); }
+
 #define _SetRenOnX(p1,b1)           { P ## p1 ## REN    |=     BIT ## b1   ; }
 #define _SetRenOffX(p1,b1)          { P ## p1 ## REN    &= ( ~ BIT ## b1 ) ; }
 

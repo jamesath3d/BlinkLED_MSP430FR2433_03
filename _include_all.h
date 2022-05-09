@@ -27,6 +27,9 @@
 #include "_clk_init.h"
 #include "_wdt_init.h"
 
+#include "_adc_init.h"
+
+
 //#include "_include_all.h"
 
 void main_init(void);
