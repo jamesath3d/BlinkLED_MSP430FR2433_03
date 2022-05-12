@@ -47,9 +47,15 @@
 
 #define _Set1X(port,pin)             { P ## port ## OUT    |=     BIT ## pin   ; }
 #define _Set0X(port,pin)             { P ## port ## OUT    &= ( ~ BIT ## pin ) ; }
+#define _Set1Y(...)                 _X1( _Set1X , __VA_ARGS__)
+#define _Set0Y(...)                 _X1( _Set0X , __VA_ARGS__)
 
 #define _SetInX(p1,b1)              { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
 #define _SetOutX(p1,b1)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
+#define _SetOutY(...)               _X1( _SetOutX , __VA_ARGS__)
+#define _SetInY(...)                _X1( _SetInX, __VA_ARGS__)
+
+#define _PinitAsInOffOut0Y(...)     _X1( _PinitAsInOffOut0X, __VA_ARGS__)
 
 #define _SetOutX1(p1,b1)            { _SetOutX(p1,b1) ; _Set1X(p1,b1); }
 #define _SetOutX0(p1,b1)            { _SetOutX(p1,b1) ; _Set0X(p1,b1); }
