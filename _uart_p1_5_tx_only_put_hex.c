@@ -63,7 +63,7 @@ void _uart_p1_5_tx_only_put_hex(uint8_t ___hexbyte){
 void _uart_p1_5_tx_only_put_hex_u8(uint8_t ___hexbyte){
     _uart_p1_5_tx_only_put_hex(___hexbyte);
     _uart_p1_5_tx_only_put_ch('(');
-    _uart_p1_5_tx_only_put_u8(___hexbyte);
+    _uart_p1_5_tx_only_put_u8d(___hexbyte);
     _uart_p1_5_tx_only_put_ch(')');
 } // _uart_p1_5_tx_only_put_hex_u8
 
@@ -163,7 +163,7 @@ void _uart_p1_5_tx_only_put_uint16d(uint16_t ___uuu){
     _UART_P1_5_TX_PUT_CH(' ');
 } // _uart_p1_5_tx_only_put_uint16d
 
-void _uart_p1_5_tx_only_put_u8(uint8_t ___hexbyte){
+void _uart_p1_5_tx_only_put_u8d(uint8_t ___hexbyte){
     uint8_t __tt;
 
     __tt=0;
@@ -187,5 +187,5 @@ void _uart_p1_5_tx_only_put_u8(uint8_t ___hexbyte){
         }
     }
     _uart_p1_5_tx_only_put_hex_half(___hexbyte);
-} // _uart_p1_5_tx_only_put_u8
+} // _uart_p1_5_tx_only_put_u8d
 

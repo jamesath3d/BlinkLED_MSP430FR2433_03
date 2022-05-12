@@ -27,7 +27,7 @@ void _uart_p1_5_tx_only_put_uint32d(uint32_t ___uuu);   // put uint32 in dec ASC
 void _uart_p1_5_tx_only_put_hex_half(uint8_t ___hexbyte); // put 0-15 in HEX ASCII  ( result 1 hex ASCII )
 void _uart_p1_5_tx_only_put_hex(uint8_t ___hexbyte);      // put 0-255 in HEX ASCII ( result 2 hex ASCII )
 void _uart_p1_5_tx_only_put_hex_u8(uint8_t ___hexbyte);   // put 0-255 in HEX ASCII , with "()" and dec format
-void _uart_p1_5_tx_only_put_u8(uint8_t ___hexbyte);       // put uint8 in dec ASCII
+void _uart_p1_5_tx_only_put_u8d(uint8_t ___hexbyte);       // put uint8 in dec ASCII
 void _uart_p1_5_tx_only_put_hexS(uint8_t ___cnt , uint8_t ___hexbyte[]);
 
 #endif /* UART_P1_5_TX_ONLY_H_ */
