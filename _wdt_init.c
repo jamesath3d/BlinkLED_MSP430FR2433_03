@@ -2,7 +2,7 @@
 
 void _wdt_timer_gap_60ms_at_1Mhz_main_clk(void) { // main clk is 1 Mhz, default, need extra-adjustment if necessary
 
-    WDTCTL = _WdtAsTimer_VLO_ + _WdtDiv_9__512 ;    // VLO 8192 Hz , div 512 --> 1/8192*512 == 62.5 ms // oscilloscope 63ms
+    WDTCTL = _WdtAsTimer_VLO_ | _WdtDiv_9__512 ;    // if timer_clk == VLO 8192 Hz , div 512 --> (1/8192)*512 == 0.0625 == 62.5 ms // oscilloscope 63ms
 
 
     _set_RefCLK_32k_as_FLL_DCO_clk_source ; // then default is 1Mhz of FLL's output as MCU's main clock source

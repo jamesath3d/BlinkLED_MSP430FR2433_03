@@ -31,8 +31,8 @@
 // 6:5 : WdtSSel -> 'b00 SMCLK, 'b01 -> ACLK , 'b10 -> VLOclk, 'b11 -> X_Clk
 // 4:WdtTMsel: timer modeselect : 0 -> WDT as reset mode, 1 -> WDT as timer mode
 // wdtPassword + setAsTimerDisableWdtReset + clearWdtCounter + 
-#define _WdtAsTimer__    (WDTPW + WDTTMSEL + WDTCNTCL) // passwd , as timer, clean counter
-#define _WdtAsTimer_VLO_ (_WdtAsTimer__ + WDTSSEL__VLO)
+#define _WdtAsTimer__    (WDTPW | WDTTMSEL | WDTCNTCL) // passwd , as timer, clean counter
+#define _WdtAsTimer_VLO_ (_WdtAsTimer__ | WDTSSEL__VLO)
 // how to set WDTCTL ====== end
 
 #define Delay_0()           
