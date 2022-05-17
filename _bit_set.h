@@ -52,8 +52,9 @@
 
 #define _SetInX(p1,b1)              { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
 #define _SetOutX(p1,b1)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
-#define _SetOutY(...)               _X1( _SetOutX , __VA_ARGS__)
+#define _SetOutF(p1,b1)             { P ## p1 ## DIR    ^=     BIT ## b1   ; }
 #define _SetInY(...)                _X1( _SetInX, __VA_ARGS__)
+#define _SetOutY(...)               _X1( _SetOutX , __VA_ARGS__)
 
 #define _PinitAsInOffOut0Y(...)     _X1( _PinitAsInOffOut0X, __VA_ARGS__)
 
