@@ -15,6 +15,8 @@
 #define _WDT_wait_interrupt_LPM4        _BIS_SR( LPM4_bits + GIE ) ;
 //#define _WDT_wait_interrupt_LPM0         LPM0; // if no GIE, WDT don't work.
 
+#define _WDT_wait_interrupt_LPM3_loop   while(1) { _WDT_wait_interrupt_LPM3; __nop(); }
+
 // how to set WDTCTL ====== begin
 #define _WdtDiv_31__2G               WDTIS__2G              
 #define _WdtDiv_27_128M              WDTIS__128M            
@@ -103,5 +105,6 @@
 #endif
 
 void _wdt_timer_gap_60ms_at_1Mhz_main_clk(void) ; // main clk is 1 Mhz, default, need extra-adjustment if necessary
+void _wdt_timer_gap_1000ms_at_1Mhz_main_clk(void) ; // main clk is 1 Mhz, default, need extra-adjustment if necessary
 
 #endif
