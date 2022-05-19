@@ -84,9 +84,12 @@
 #define _Y4( ff, ... ) _X4( ff , __VA_ARGS__ )
 #define _Y5( ff, ... ) _X5( ff , __VA_ARGS__ )
 
+//#define _READbitX( port, pin )  (_PinT(port) & _BbitT(pin))
+#define _READbitX( port, pin )  ( (P ## port ## IN) & (BIT ## pin) )
+
 #define _RR1( ff, a11, a12 )    ff( a11, a12 )
 #define _R1( ff, ... )          _RR1( ff , __VA_ARGS__ )
-#define _READbitX( port, pin )  (_PinT(port) & _BbitT(pin))
+
 
 
 
