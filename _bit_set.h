@@ -84,17 +84,10 @@
 #define _Y4( ff, ... ) _X4( ff , __VA_ARGS__ )
 #define _Y5( ff, ... ) _X5( ff , __VA_ARGS__ )
 
-//#define _READbitX(ppp)          ( (P ## p1 ## IN)   &  (BIT ## b1)       )
-//#define _SetOut0X(ppp)          { _SetOutX( ppp ); _Set0X( ppp ); }
-////#define _SetOut0Y(ppp,...)      { _SetOutX(ppp);   _SetOut0Y( __VA_ARGS__ ); }
-////#define _SetOut0Z(p1,p2,...)    { _SetOutX(p1,p2); }
-////#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   _SetOut0Y( __VA_ARGS__ ); }
-//#define _SetOut0Y(p1,p2,...) { _SetOutX(p1,p2);   }
-//#define _SetOut0Z(p1,...)    { _SetOut0Y(p1); _SetOut0Z(__VA_ARGS__);    }
-////#define led_10_init()           { _PinInAsOffInitOut0(led_10); }
-//
-////#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
-//#define _PinInitAsInOffOut0x(cnt,func,...)  { _SetRENoff_(ppp); _SetIN_(ppp); _Set0_(ppp); }
+#define _RR1( ff, a11, a12 )    ff( a11, a12 )
+#define _R1( ff, ... )          _RR1( ff , __VA_ARGS__ )
+#define _READbitX( port, pin )  (_PinT(port) & _BbitT(pin))
+
 
 
 
