@@ -1,5 +1,12 @@
 #include "main.h"
 
+void _WDT_wait_interrupt_LPM3x( uint8_t ___amount ) {
+    while ( 0 != ___amount ) {
+        _WDT_wait_interrupt_LPM3; 
+        __nop(); 
+        ___amount -- ; 
+    }
+} // _WDT_wait_interrupt_LPM3x
 void _wdt_timer_gap_60ms_at_1Mhz_main_clk(void) { // main clk is 1 Mhz, default, need extra-adjustment if necessary
 
     WDTCTL = _WdtAsTimer_VLO_ | _WdtDiv_9__512 ;    // if timer_clk == VLO 8192 Hz , div 512 --> (1/8192)*512 == 0.0625 == 62.5 ms // oscilloscope 63ms

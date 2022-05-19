@@ -47,16 +47,16 @@
 
 #define _Set1X(port,pin)             { P ## port ## OUT    |=     BIT ## pin   ; }
 #define _Set0X(port,pin)             { P ## port ## OUT    &= ( ~ BIT ## pin ) ; }
-#define _Set1Y(...)                 _X1( _Set1X , __VA_ARGS__)
-#define _Set0Y(...)                 _X1( _Set0X , __VA_ARGS__)
+//#define _Set1Y(...)                 _X1( _Set1X , __VA_ARGS__)
+//#define _Set0Y(...)                 _X1( _Set0X , __VA_ARGS__)
 
 #define _SetInX(p1,b1)              { P ## p1 ## DIR    &= ( ~ BIT ## b1 ) ; }
 #define _SetOutX(p1,b1)             { P ## p1 ## DIR    |=     BIT ## b1   ; }
 #define _SetOutF(p1,b1)             { P ## p1 ## DIR    ^=     BIT ## b1   ; }
-#define _SetInY(...)                _X1( _SetInX, __VA_ARGS__)
-#define _SetOutY(...)               _X1( _SetOutX , __VA_ARGS__)
+//#define _SetInY(...)                _X1( _SetInX, __VA_ARGS__)
+//#define _SetOutY(...)               _X1( _SetOutX , __VA_ARGS__)
 
-#define _PinitAsInOffOut0Y(...)     _X1( _PinitAsInOffOut0X, __VA_ARGS__)
+//#define _PinitAsInRenOffOut0Y(...)  _X1( _PinitAsInRenOffOut0X, __VA_ARGS__)
 
 #define _SetOutX1(p1,b1)            { _SetOutX(p1,b1) ; _Set1X(p1,b1); }
 #define _SetOutX0(p1,b1)            { _SetOutX(p1,b1) ; _Set0X(p1,b1); }
@@ -64,8 +64,12 @@
 #define _SetRenOnX(p1,b1)           { P ## p1 ## REN    |=     BIT ## b1   ; }
 #define _SetRenOffX(p1,b1)          { P ## p1 ## REN    &= ( ~ BIT ## b1 ) ; }
 
-#define _PinitAsInOffOut0X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set0X(p1,b1); }
-#define _PinitAsInOffOut1X(p1,b1)   { _SetRenOffX(p1,b1); _SetInX(p1,b1); _Set1X(p1,b1); }
+#define _PinitAsInRenOffX(p1,b1)        { _SetRenOffX(p1,b1);       _SetInX(p1,b1); }
+#define _PinitAsInRenOnX(p1,b1)         { _SetRenOnX(p1,b1);        _SetInX(p1,b1); }
+#define _PinitAsInRenOffOut0X(p1,b1)    { _PinitAsInRenOffX(p1,b1); _Set0X(p1,b1); }
+#define _PinitAsInRenOffOut1X(p1,b1)    { _PinitAsInRenOffX(p1,b1);  _Set1X(p1,b1); }
+#define _PinitAsInRenOnOut0X(p1,b1)     { _PinitAsInRenOnX(p1,b1);  _Set0X(p1,b1); }
+#define _PinitAsInRenOnOut1X(p1,b1)     { _PinitAsInRenOnX(p1,b1);  _Set1X(p1,b1); }
 
 //#define _X2( ff, a11, a12, a21, a22 ) { ff( a11, a12 ) ; ff( a21, a22 ) }
 #define _X1( ff, a11, a12 ) { ff( a11, a12 ) ; }

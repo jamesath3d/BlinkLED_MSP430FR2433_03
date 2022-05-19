@@ -16,6 +16,7 @@
 //#define _WDT_wait_interrupt_LPM0         LPM0; // if no GIE, WDT don't work.
 
 #define _WDT_wait_interrupt_LPM3_loop   while(1) { _WDT_wait_interrupt_LPM3; __nop(); }
+void _WDT_wait_interrupt_LPM3x( uint8_t ___amount ) ;
 
 // how to set WDTCTL ====== begin
 #define _WdtDiv_31__2G               WDTIS__2G              

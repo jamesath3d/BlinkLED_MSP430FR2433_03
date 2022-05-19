@@ -166,6 +166,7 @@ void _uart_p1_5_tx_only_put_uint16d(uint16_t ___uuu){
 void _uart_p1_5_tx_only_put_u8d(uint8_t ___hexbyte){
     uint8_t __tt;
 
+    _UART_P1_5_TX_PUT_CH(' ');
     __tt=0;
     if( ___hexbyte >= 100 ) {
         __tt = ___hexbyte - 100 ;
