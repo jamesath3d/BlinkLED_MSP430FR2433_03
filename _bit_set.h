@@ -77,12 +77,20 @@
 #define _X3( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y2( ff, __VA_ARGS__ ) }
 #define _X4( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y3( ff, __VA_ARGS__ ) }
 #define _X5( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y4( ff, __VA_ARGS__ ) }
+#define _X6( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y5( ff, __VA_ARGS__ ) }
+#define _X7( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y6( ff, __VA_ARGS__ ) }
+#define _X8( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y7( ff, __VA_ARGS__ ) }
+#define _X9( ff, a11, a12, ... ) { ff( a11, a12 ) ; _Y8( ff, __VA_ARGS__ ) }
 
 #define _Y1( ff, ... ) _X1( ff , __VA_ARGS__ )
 #define _Y2( ff, ... ) _X2( ff , __VA_ARGS__ )
 #define _Y3( ff, ... ) _X3( ff , __VA_ARGS__ )
 #define _Y4( ff, ... ) _X4( ff , __VA_ARGS__ )
 #define _Y5( ff, ... ) _X5( ff , __VA_ARGS__ )
+#define _Y6( ff, ... ) _X6( ff , __VA_ARGS__ )
+#define _Y7( ff, ... ) _X7( ff , __VA_ARGS__ )
+#define _Y8( ff, ... ) _X8( ff , __VA_ARGS__ )
+#define _Y9( ff, ... ) _X9( ff , __VA_ARGS__ )
 
 //#define _READbitX( port, pin )  (_PinT(port) & _BbitT(pin))
 #define _READbitX( port, pin )  ( (P ## port ## IN) & (BIT ## pin) )

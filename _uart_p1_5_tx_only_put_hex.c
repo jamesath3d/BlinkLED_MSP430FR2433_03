@@ -191,3 +191,13 @@ void _uart_p1_5_tx_only_put_u8d(uint8_t ___hexbyte){
     //_UART_P1_5_TX_PUT_CH(' ');
 } // _uart_p1_5_tx_only_put_u8d
 
+void _uart_p1_5_tx_only_loop_put_u8_by_lpm(void){
+    static uint8_t __uii = 0 ;
+
+    for ( uint8_t ii = 8; ii > 0 ; ii -- ) {
+        _WDT_wait_interrupt_LPM3;
+    }
+    _uart_p1_5_tx_only_put_u8d( __uii ) ;
+    _uart_p1_5_tx_only_put_rn();
+
+} // _uart_p1_5_tx_only_loop_put_u8_by_lpm
