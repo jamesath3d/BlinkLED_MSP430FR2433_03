@@ -197,7 +197,7 @@ void _uart_p1_5_tx_only_loop_put_u8_by_lpm(void){
     for ( uint8_t ii = 8; ii > 0 ; ii -- ) {
         _WDT_wait_interrupt_LPM3;
     }
-    _uart_p1_5_tx_only_put_u8d( __uii ) ;
+    _uart_p1_5_tx_only_put_u8d( __uii ++ ) ;
     _uart_p1_5_tx_only_put_rn();
 
 } // _uart_p1_5_tx_only_loop_put_u8_by_lpm
